@@ -1,25 +1,23 @@
 {
-  "name": "gulp-starter",
-  "version": "0.1.1",
-  "description": "Gulp starter with common tasks and scenarios",
+  "name": "Boilerplate",
+  "version": "0.0.0",
+  "description": "New project boilerplate",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/greypants/gulp-starter.git"
   },
   "browser": {
-    "underscore": "backbone/node_modules/underscore",
     "plugin": "./src/javascript/vendor/jquery-plugin.js"
   },
   "browserify": {
     "transform": [
       "browserify-shim",
-      "coffeeify",
       "hbsfy"
     ]
   },
   "browserify-shim": {
     "plugin": {
-      "exports": "plugin",
       "depends": [
         "jquery:$"
       ]
@@ -28,7 +26,6 @@
   "devDependencies": {
     "browserify": "~3.36.0",
     "browserify-shim": "~3.4.1",
-    "coffeeify": "~0.6.0",
     "connect": "~2.14.3",
     "gulp": "~3.6.0",
     "gulp-autoprefixer": "0.0.7",
@@ -43,7 +40,6 @@
     "vinyl-source-stream": "~0.1.1"
   },
   "dependencies": {
-    "backbone": "~1.1.2",
     "jquery": "~2.1.0"
   }
 }
