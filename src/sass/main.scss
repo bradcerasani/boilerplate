@@ -1,5 +1,6 @@
-$blue: blue;
+$blue: white;
 
 body {
-  background: red;
+  background: $blue;
+  transition: transform 1s;
 }
