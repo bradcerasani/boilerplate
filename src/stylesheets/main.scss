@@ -1,6 +1,7 @@
-$teal: teal;
+//	============================================
+//	Main
+// 	=============================================
 
-body {
-  background: $teal;
-  transition: transform 1s;
-}
+// added some bootstrap bloat for testing sass compiles
+
+@import 'bootstrap';

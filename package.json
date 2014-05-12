@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/greypants/gulp-starter.git"
+    "url": "git://github.com/bradcerasani/boilerplate.git"
   },
   "browser": {
     "plugin": "./src/javascript/vendor/jquery-plugin.js"
@@ -35,7 +35,10 @@
     "gulp-livereload": "~1.2.0",
     "gulp-notify": "~1.2.4",
     "gulp-open": "~0.2.8",
+    "gulp-rename": "^1.2.0",
     "gulp-sass": "^0.7.1",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^0.3.0",
     "hbsfy": "~1.3.2",
     "vinyl-source-stream": "~0.1.1"
   },
