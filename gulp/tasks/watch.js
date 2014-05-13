@@ -1,4 +1,4 @@
-var gulp       = require('gulp');
+var gulp = require('gulp');
 var livereload = require('gulp-livereload');
 
 gulp.task('watch', function() {
@@ -11,5 +11,5 @@ gulp.task('watch', function() {
   gulp.watch('src/javascripts/**', ['scripts']);
   gulp.watch('src/stylesheets/**', ['styles']);
   gulp.watch('src/images/**', ['images']);
-  gulp.watch(['build/**']).on('change', reload);
+  // gulp.watch(['build/**']).on('change', reload);
 });
