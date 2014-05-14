@@ -8,7 +8,7 @@ var error = require('../lib/error');
 
 gulp.task('scripts', function(){
   return browserify({
-      entries: ['./src/javascripts/main.js']
+      entries: ['./src/assets/javascripts/main.js']
       // extensions: ['.coffee', '.hbs']
     })
     .bundle({debug: false})
