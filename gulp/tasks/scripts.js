@@ -1,21 +1,30 @@
 var gulp = require('gulp');
 var browserify = require('browserify');
+var watchify = require('watchify');
+var bundleLogger = require('../lib/bundleLogger');
 var source = require('vinyl-source-stream');
-var streamify = require('gulp-streamify');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
 var error = require('../lib/error');
 
-gulp.task('scripts', function(){
-  return browserify({
+gulp.task('scripts', function() {
+  var bundleMethod = global.isWatching ? watchify : browserify;
+  var bundler = bundleMethod({
       entries: ['./src/assets/javascripts/main.js']
-      // extensions: ['.coffee', '.hbs']
-    })
-    .bundle({debug: false})
-    .on('error', error)
-    .pipe(source('bundle.js'))
-    .pipe(gulp.dest('./build/assets/javascripts'))
-    .pipe(streamify(uglify()))
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('./build/assets/javascripts'));
+  });
+
+  var bundle = function() {
+    bundleLogger.start();
+
+    return bundler
+      .bundle({debug: false})
+      .on('error', error)
+      .pipe(source('bundle.js'))
+      .pipe(gulp.dest('./build/assets/javascripts'))
+      .on('end', bundleLogger.end);
+  };
+
+  if(global.isWatching) {
+    bundler.on('update', bundle);
+  }
+
+  return bundle();
 });
