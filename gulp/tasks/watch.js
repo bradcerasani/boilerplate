@@ -8,6 +8,7 @@ gulp.task('watch', function() {
     server.changed(file.path);
   };
 
+  gulp.watch('src/**/*.html', ['html']);
   gulp.watch('src/assets/javascripts/**', ['scripts']);
   gulp.watch('src/assets/stylesheets/**', ['styles']);
   gulp.watch('src/assets/images/**', ['images']);
