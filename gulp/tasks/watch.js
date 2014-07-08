@@ -1,12 +1,6 @@
 var gulp = require('gulp');
-var livereload = require('gulp-livereload');
 
 gulp.task('watch', function() {
-  var server = livereload();
-  var reload = function(file) {
-    server.changed(file.path);
-  };
-
   gulp.watch('src/**/*.html', ['html']);
   gulp.watch('src/assets/javascripts/**', ['scripts']);
   gulp.watch('src/assets/stylesheets/**', ['styles']);

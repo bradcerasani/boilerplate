@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var rename = require('gulp-rename');
-var livereload = require('gulp-livereload');
 var browserSync = require('browser-sync');
 var error = require('../lib/error');
 
