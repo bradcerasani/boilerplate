@@ -12,8 +12,7 @@
   },
   "browserify": {
     "transform": [
-      "browserify-shim",
-      "hbsfy"
+      "browserify-shim"
     ]
   },
   "browserify-shim": {
@@ -31,6 +30,7 @@
     "gulp": "~3.8.7",
     "gulp-autoprefixer": "0.0.8",
     "gulp-changed": "~1.0.0",
+    "gulp-file-include": "^0.4.2",
     "gulp-imagemin": "~1.0.0",
     "gulp-notify": "~1.5.0",
     "gulp-open": "~0.2.8",
@@ -39,7 +39,6 @@
     "gulp-streamify": "0.0.5",
     "gulp-uglify": "^0.3.1",
     "gulp-util": "^3.0.0",
-    "hbsfy": "~1.x",
     "pretty-hrtime": "^0.2.1",
     "vinyl-source-stream": "~0.1.1",
     "watchify": "^1.0.2"
