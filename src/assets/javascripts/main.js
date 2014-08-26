@@ -1,4 +1,4 @@
 var $ = require('jquery');
-var sayHello = require('./say-hello');
+var sayHello = require('./hello-world');
 
 sayHello();

@@ -1,8 +1,11 @@
 var gulp = require('gulp');
-var browserSync = require('browser-sync');
+var fileinclude = require('gulp-file-include');
 
 gulp.task('html', function() {
-  return gulp.src('./src/*.html', '!src/partials/*.html')
-    .pipe(gulp.dest('./build'))
-    .pipe(browserSync.reload({stream:true}));
+  gulp.src(['src/**/*.html', '!src/partials/**/*.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest('./build'));
 });
