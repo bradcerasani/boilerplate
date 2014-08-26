@@ -31,7 +31,6 @@
     "gulp-autoprefixer": "0.0.8",
     "gulp-changed": "~1.0.0",
     "gulp-file-include": "^0.4.2",
-    "gulp-if": "^1.2.4",
     "gulp-imagemin": "~1.0.0",
     "gulp-notify": "~1.5.0",
     "gulp-open": "~0.2.8",
