@@ -1,30 +1,23 @@
 var gulp = require('gulp');
-var browserify = require('browserify');
-var watchify = require('watchify');
-var bundleLogger = require('../lib/bundleLogger');
+var gutil = require('gulp-util');
+var sourcemaps = require('gulp-sourcemaps');
 var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
+var watchify = require('watchify');
+var browserify = require('browserify');
 var error = require('../lib/error');
 
-gulp.task('scripts', function() {
-  var bundleMethod = global.isWatching ? watchify : browserify;
-  var bundler = bundleMethod({
-      entries: ['./src/assets/javascripts/main.js']
-  });
+var bundler = watchify(browserify('./src/assets/javascripts/main.js', watchify.args));
 
-  var bundle = function() {
-    bundleLogger.start();
+gulp.task('scripts', bundle);
+bundler.on('update', bundle);
 
-    return bundler
-      .bundle({debug: false})
-      .on('error', error)
-      .pipe(source('bundle.js'))
-      .pipe(gulp.dest('./build/assets/javascripts'))
-      .on('end', bundleLogger.end);
-  };
-
-  if(global.isWatching) {
-    bundler.on('update', bundle);
-  }
-
-  return bundle();
-});
+function bundle() {
+  return bundler.bundle()
+    .on('error', error)
+    .pipe(source('./bundle.js'))
+      .pipe(buffer())
+      .pipe(sourcemaps.init({loadMaps: true}))
+      .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest('./build/assets/javascripts'));    
+}
