@@ -14,5 +14,5 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.write())
     .pipe(prefix("last 2 version"))
     .pipe(gulp.dest('./build/assets/stylesheets'))
-    .pipe(browserSync.reload({stream:true, notify: false}));
+    .pipe(browserSync.reload({stream:true}));
 });
