@@ -26,6 +26,6 @@ gulp.task('styles', function() {
     .on('error', error)
     .pipe(sourcemaps.write())
     .pipe(prefix({browsers: TARGET_BROWSERS}))
-    .pipe(gulp.dest('./build/assets/stylesheets'))
+    .pipe(gulp.dest('./dist/assets/stylesheets'))
     .pipe(browserSync.reload({stream:true}));
 });

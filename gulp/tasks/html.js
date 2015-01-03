@@ -7,5 +7,5 @@ gulp.task('html', function() {
       prefix: '@@',
       basepath: '@file'
     }))
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('./dist'));
 });

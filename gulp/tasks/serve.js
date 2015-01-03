@@ -7,7 +7,7 @@ gulp.task('serve', function() {
     open: false,
     logPrefix: "BrowserSync",
     server: {
-      baseDir: "./build"
+      baseDir: "./dist"
     }
   });
 });

@@ -19,5 +19,5 @@ function bundle() {
       .pipe(buffer())
       .pipe(sourcemaps.init({loadMaps: true}))
       .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('./build/assets/javascripts'));    
+    .pipe(gulp.dest('./dist/assets/javascripts'));    
 }

@@ -3,7 +3,7 @@ var changed = require('gulp-changed');
 var imagemin = require('gulp-imagemin');
 
 gulp.task('images', function() {
-  var dest = './build/assets/images';
+  var dest = './dist/assets/images';
 
   return gulp.src('./src/assets/images/**')
     .pipe(changed(dest))
