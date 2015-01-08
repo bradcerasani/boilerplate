@@ -1,14 +1,11 @@
 // =============================================================================
-// Variables
+// Functions
 // =============================================================================
 
-// Syllable-based prefix abbreviations facilitate speedy autocompletion
-
-// Colors
+// Color Variant
 // -----------------------------------------------------------------------------
 
-$cl-primary: (    
-  "light": #6dd16d,
-  "normal": #49b749,
-  "intense": #3fd13f,
-);
+@function cv($color, $variant: normal) {
+  $color: map-get($color-primary, $variant);
+  @return $color;
+}
