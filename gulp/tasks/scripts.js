@@ -5,6 +5,7 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var watchify = require('watchify');
 var browserify = require('browserify');
+var browserSync = require('browser-sync');
 var error = require('../lib/error');
 
 var bundler = watchify(browserify('./src/assets/javascripts/main.js', watchify.args));
@@ -19,5 +20,6 @@ function bundle() {
       .pipe(buffer())
       .pipe(sourcemaps.init({loadMaps: true}))
       .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('./dist/assets/javascripts'));    
+    .pipe(gulp.dest('./dist/assets/javascripts'))
+    .pipe(browserSync.reload({stream:true}));
 }
