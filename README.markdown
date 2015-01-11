@@ -4,7 +4,7 @@ This is my boilerplate for front-end web projects. WIP - pull requests welcome.
 
 ## Prerequisites
 
-##### Node.js & Gulp
+#### Node.js & Gulp
 
 Install Node using the installer [here](http://nodejs.org/). Once installed, use `npm` to install [Gulp](http://gulpjs.com) globally:
 
@@ -14,20 +14,20 @@ $ npm install -g gulp
 
 ## Getting Started
 
-##### 1. Clone the project
+#### 1. Clone the project
 
 ```
 $ git clone https://github.com/bradcerasani/boilerplate.git
 ```
 
-##### 2. Install dependencies
+#### 2. Install dependencies
 
 ```
 $ cd boilerplate
 $ npm install
 ```
 
-##### 3. Run Gulp
+#### 3. Run Gulp
 
 ```
 $ gulp
@@ -59,7 +59,7 @@ You should never manually modify the contents of `node_modules` - this directory
 
 To add or modify a dependency, edit the `package.json` file or run `npm install --save-dev <package name>` to have it installed and added to `package.json` automatically.
 
-##### Permissions Errors
+#### Permissions Errors
 
 If npm is throwing permissions errors, you may need to chown some of the directories it uses:
 
@@ -72,7 +72,7 @@ _Note: $(whoami) is a valid command, not a placeholder_
 
 You should not need to run `npm install` as sudo/root. 
 
-##### Reinstalling Packages
+#### Reinstalling Packages
 
 From project root:
 
@@ -81,6 +81,6 @@ $ rm -rf node_modules
 $ npm install
 ```
 
-##### License
+# License
 
 MIT © [Brad Cerasani](http://bradcerasani.me)
