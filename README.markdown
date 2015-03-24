@@ -43,11 +43,9 @@ The default gulp task runs build, watch, and serve tasks as specified in gulp/ta
 [BrowserSync] Serving files from: ./dist
 ```
 
-## GitHub Pages Deployment
+## Deploy to GitHub Pages
 
-The following command will deploy the current branch to GitHub pages with the `dist` directory acting as web root:
-
-`$ git subtree push --prefix dist origin gh-pages`
+`$ gulp deploy`
 
 ---
 
@@ -70,7 +68,7 @@ $ sudo chown -R $(whoami) /usr/local/lib/node_modules
 
 _Note: $(whoami) is a valid command, not a placeholder_
 
-You should not need to run `npm install` as sudo/root. 
+You should not need to run `npm install` as sudo/root.
 
 #### Reinstalling Packages
 
