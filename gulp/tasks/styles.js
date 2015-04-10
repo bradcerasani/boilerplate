@@ -31,4 +31,4 @@ function styles() {
     .pipe(browserSync.reload({stream:true}));
 }
 
-gulp.task('styles', styles);
+gulp.task(styles);
