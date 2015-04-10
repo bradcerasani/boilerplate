@@ -15,6 +15,7 @@
     "browser-sync": "^2.5.3",
     "browserify": "~9.x",
     "connect": "~3.3.5",
+    "del": "^1.1.1",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-autoprefixer": "2.1.0",
     "gulp-changed": "~1.2.1",
