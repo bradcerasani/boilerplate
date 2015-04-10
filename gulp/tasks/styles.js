@@ -4,7 +4,6 @@ var sourcemaps = require('gulp-sourcemaps');
 var prefix = require('gulp-autoprefixer');
 var changed = require('gulp-changed');
 var browserSync = require('browser-sync');
-var error = require('../lib/error');
 
 var TARGET_BROWSERS = [
   'ie >= 10',
@@ -18,14 +17,18 @@ var TARGET_BROWSERS = [
   'bb >= 10'
 ];
 
-gulp.task('styles', function() {
+function styles() {
   return gulp.src('./src/assets/stylesheets/main.scss')
-    .pipe(changed('styles', {extension: '.scss'}))
     .pipe(sourcemaps.init())
-    .pipe(sass({precision: 10}))      
-    .on('error', error)
-    .pipe(sourcemaps.write())
+    .pipe(changed('styles', {extension: '.scss'}))
+    .pipe(sass({
+      precision: 10,
+      errLogToConsole: true
+    }))
     .pipe(prefix({browsers: TARGET_BROWSERS}))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/assets/stylesheets'))
     .pipe(browserSync.reload({stream:true}));
-});
+}
+
+gulp.task('styles', styles);

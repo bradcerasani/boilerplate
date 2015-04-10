@@ -1,3 +1,4 @@
-// add new tasks to gulp/tasks directory
+// Tasks are defined in ./gulp/tasks directory
 
-require('./gulp');
+var requireDir = require('require-dir');
+var dir = requireDir('./gulp/tasks');
