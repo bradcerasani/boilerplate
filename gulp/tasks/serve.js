@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 var browserSync = require('browser-sync');
 
-gulp.task('serve', function() {
+function serve() {
   browserSync({
     notify: false,
     open: false,
@@ -10,4 +10,6 @@ gulp.task('serve', function() {
       baseDir: "./dist"
     }
   });
-});
+}
+
+gulp.task(serve);
