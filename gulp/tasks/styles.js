@@ -4,6 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var prefix = require('gulp-autoprefixer');
 var changed = require('gulp-changed');
 var browserSync = require('browser-sync');
+var reload = browserSync.reload;
 
 var TARGET_BROWSERS = [
   'ie >= 10',
@@ -28,7 +29,7 @@ function styles() {
     .pipe(prefix({browsers: TARGET_BROWSERS}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/assets/stylesheets'))
-    .pipe(browserSync.reload({stream:true}));
+    .pipe(reload({stream:true}));
 }
 
 gulp.task(styles);
