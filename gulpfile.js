@@ -1,4 +1,9 @@
 // Tasks are defined in ./gulp/tasks directory
+'use strict';
 
-var requireDir = require('require-dir');
-var dir = requireDir('./gulp/tasks');
+var gulp = require('gulp');
+var HubRegistry = require('gulp-hub');
+
+var hub = new HubRegistry(['gulp/tasks/*.js']);
+
+gulp.registry(hub);
