@@ -4,11 +4,11 @@ var imagemin = require('gulp-imagemin');
 
 var dest = './dist/assets/images';
 
+gulp.task(images);
+
 function images() {
   return gulp.src('./src/assets/images/**')
     .pipe(changed(dest))
     .pipe(imagemin())
     .pipe(gulp.dest(dest));
 }
-
-gulp.task(images);

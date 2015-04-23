@@ -1,6 +1,8 @@
 var gulp = require("gulp");
 var browserSync = require('browser-sync');
 
+gulp.task(serve);
+
 function serve() {
   browserSync({
     notify: false,
@@ -11,5 +13,3 @@ function serve() {
     }
   });
 }
-
-gulp.task(serve);

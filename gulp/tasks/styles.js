@@ -18,6 +18,8 @@ var TARGET_BROWSERS = [
   'bb >= 10'
 ];
 
+gulp.task(styles);
+
 function styles() {
   return gulp.src('./src/assets/stylesheets/main.scss')
     .pipe(sourcemaps.init())
@@ -31,5 +33,3 @@ function styles() {
     .pipe(gulp.dest('./dist/assets/stylesheets'))
     .pipe(reload({stream:true}));
 }
-
-gulp.task(styles);

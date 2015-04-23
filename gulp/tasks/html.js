@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var fileinclude = require('gulp-file-include');
 var browserSync = require('browser-sync');
 
+gulp.task(html);
+
 function html() {
   gulp.src(['src/**/*.html', '!src/partials/**/*.html'])
     .pipe(fileinclude({
@@ -11,5 +13,3 @@ function html() {
     .pipe(gulp.dest('./dist'))
     .pipe(browserSync.reload({stream:true}));
 }
-
-gulp.task(html);

@@ -5,9 +5,9 @@ var options = {
   message: "Updated " + new Date()
 };
 
+gulp.task(deploy);
+
 function deploy() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages(options));
 }
-
-gulp.task(deploy);
