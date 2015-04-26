@@ -1,0 +1,22 @@
+// =============================================
+// # Global
+// =============================================
+
+// Typography
+$base-font-size: 16px !default;
+$base-line-height: 1.5 !default;
+
+// Breakpoints
+$breakpoints: (
+  mobile: 480px,
+  tablet: 700px,
+  laptop: 1100px,
+  desktop: 1600px
+);
+
+// Border radius
+$border-radius: (
+  small: 3px,
+  medium: 6px,
+  large: 12px
+);
