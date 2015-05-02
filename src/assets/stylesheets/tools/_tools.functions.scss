@@ -2,6 +2,24 @@
 // # Functions
 // =============================================
 
+// Exponent helper
+@function pow($base, $exponent) {
+  $return: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $return: $return * $base;
+    }
+  } @else if $exponent < 0 {
+    @for $i from $exponent to 0 {
+      $return: $return / $base;
+    }
+  }
+
+  @return $return;
+}
+
+// Color getter
 @function color($color, $tone: 'base') {
-    @return map-get(map-get($color-variants, $color), $tone);
+  @return map-get(map-get($color-variants, $color), $tone);
 }
