@@ -1,0 +1,7 @@
+// =============================================
+// # Functions
+// =============================================
+
+@function color($color, $tone: 'base') {
+    @return map-get(map-get($color-variants, $color), $tone);
+}
