@@ -1,0 +1,42 @@
+// =============================================
+// # Type
+// =============================================
+
+strong,
+b,
+dt {
+  font-weight: bold;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace;
+}
+
+pre {
+  white-space: pre;
+  word-wrap: normal;
+  overflow: auto;
+
+  &,
+  code,
+  kbd,
+  samp {
+    color: palette(gray, light);
+  }
+}
+
+figure {
+  color: palette(gray);
+}
+
+figcaption {
+  font-size: modular-scale(-1);
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid $color-gray-ui;
+  margin-bottom: $spacing-unit - 1px;
+}
