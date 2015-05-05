@@ -1,0 +1,35 @@
+// =============================================
+// # Headings
+// =============================================
+
+h1 {
+  font-size: modular-scale(4);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: modular-scale(3);
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: modular-scale(2);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: modular-scale(2);
+  line-height: 1.2;
+}
+
+h5 {
+  color: palette(gray);
+  font-size: modular-scale(1);
+  line-height: 1.2;
+}
+
+h6 {
+  color: palette(gray, light);
+  font-size: modular-scale(0);
+  line-height: 1.2;
+}

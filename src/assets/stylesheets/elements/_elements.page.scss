@@ -1,0 +1,15 @@
+// =============================================
+// # Page
+// =============================================
+
+html {
+  overflow-y: scroll;
+  min-height: 100%;
+  background-color: $base-background-color;
+  color: $base-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
