@@ -1,13 +1,11 @@
-var gulp = require('gulp');
-var ghPages = require('gulp-gh-pages');
+import gulp from 'gulp';
+import ghPages from 'gulp-gh-pages';
 
-var options = {
-  message: "Updated " + new Date()
-};
-
-gulp.task(deploy);
+const options = {message: 'Updated ' + new Date()};
 
 function deploy() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages(options));
 }
+
+gulp.task(deploy);

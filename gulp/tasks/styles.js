@@ -1,12 +1,14 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var prefix = require('gulp-autoprefixer');
-var changed = require('gulp-changed');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
+import gulp from 'gulp';
+import sass from 'gulp-sass';
+import sourcemaps from 'gulp-sourcemaps';
+import prefix from 'gulp-autoprefixer';
+import changed from 'gulp-changed';
+import browserSync from 'browser-sync';
+import size from 'gulp-size';
+import handleErrors from '../lib/error';
 
-var TARGET_BROWSERS = [
+const reload = browserSync.reload;
+const TARGET_BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
   'ff >= 30',
@@ -15,10 +17,8 @@ var TARGET_BROWSERS = [
   'opera >= 23',
   'ios >= 7',
   'android >= 4.4',
-  'bb >= 10'
+  'bb >= 10',
 ];
-
-gulp.task(styles);
 
 function styles() {
   return gulp.src('./src/assets/stylesheets/main.scss')
@@ -26,10 +26,14 @@ function styles() {
     .pipe(changed('styles', {extension: '.scss'}))
     .pipe(sass({
       precision: 10,
-      errLogToConsole: true
+      errLogToConsole: false,
     }))
+    .on('error', handleErrors)
     .pipe(prefix({browsers: TARGET_BROWSERS}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/assets/stylesheets'))
-    .pipe(reload({stream:true}));
+    .pipe(size({showFiles: true}))
+    .pipe(reload({stream: true}));
 }
+
+gulp.task(styles);

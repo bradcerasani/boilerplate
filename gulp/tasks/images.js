@@ -1,14 +1,14 @@
-var gulp = require('gulp');
-var changed = require('gulp-changed');
-var imagemin = require('gulp-imagemin');
+import gulp from 'gulp';
+import changed from 'gulp-changed';
+import imagemin from 'gulp-imagemin';
 
-var dest = './dist/assets/images';
-
-gulp.task(images);
+const dest = './dist/assets/images';
 
 function images() {
-  return gulp.src('./src/assets/images/**')
+  return gulp.src(['src/assets/images/**', '!src/assets/images/icons/**'])
     .pipe(changed(dest))
     .pipe(imagemin())
     .pipe(gulp.dest(dest));
 }
+
+gulp.task(images);

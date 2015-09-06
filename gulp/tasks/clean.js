@@ -1,8 +1,8 @@
-var gulp = require('gulp');
-var del = require('del');
-
-gulp.task(clean);
+import gulp from 'gulp';
+import del from 'del';
 
 function clean() {
   del(['dist']);
 }
+
+gulp.task(clean);

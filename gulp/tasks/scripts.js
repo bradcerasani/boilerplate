@@ -1,17 +1,15 @@
-var gulp = require('gulp');
-var gutil = require('gulp-util');
-var sourcemaps = require('gulp-sourcemaps');
-var source = require('vinyl-source-stream');
-var buffer = require('vinyl-buffer');
-var watchify = require('watchify');
-var browserify = require('browserify');
-var browserSync = require('browser-sync');
-var error = require('../lib/error');
+import gulp from 'gulp';
+import sourcemaps from 'gulp-sourcemaps';
+import source from 'vinyl-source-stream';
+import buffer from 'vinyl-buffer';
+import watchify from 'watchify';
+import browserify from 'browserify';
+import browserSync from 'browser-sync';
+import size from 'gulp-size';
+import error from '../lib/error';
 
-var bundler = watchify(browserify('./src/assets/javascripts/main.js', watchify.args));
-
-gulp.task('scripts', bundle);
-bundler.on('update', bundle);
+const reload = browserSync.reload;
+const bundler = watchify(browserify('./src/assets/javascripts/main.js', watchify.args));
 
 function bundle() {
   return bundler.bundle()
@@ -21,5 +19,9 @@ function bundle() {
       .pipe(sourcemaps.init({loadMaps: true}))
       .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./dist/assets/javascripts'))
-    .pipe(browserSync.reload({stream:true}));
+    .pipe(size({showFiles: true}))
+    .pipe(reload({stream: true}));
 }
+
+gulp.task('scripts', bundle);
+bundler.on('update', bundle);

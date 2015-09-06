@@ -1,15 +1,16 @@
-var gulp = require("gulp");
-var browserSync = require('browser-sync');
+import gulp from 'gulp';
+import browserSync from 'browser-sync';
 
-gulp.task(serve);
+browserSync.create();
 
 function serve() {
-  browserSync({
+  browserSync.init({
     notify: false,
     open: false,
-    logPrefix: "BrowserSync",
     server: {
-      baseDir: "./dist"
-    }
+      baseDir: './dist',
+    },
   });
 }
+
+gulp.task(serve);
