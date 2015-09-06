@@ -1,0 +1,16 @@
+// =============================================
+// # Floats
+// =============================================
+
+@each $alias, $breakpoint in $breakpoints {
+
+  @include media($alias) {
+    .#{$alias}--right { float: right; }
+  }
+  @include media($alias) {
+    .#{$alias}--left { float: left; }
+  }
+  @include media($alias) {
+    .#{$alias}--fnone { float: none; }
+  }
+}

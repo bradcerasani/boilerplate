@@ -1,7 +1,12 @@
 // =============================================
-// # Typography
+// # Clearfix
 // =============================================
 
-@function modular-scale($value) {
-  @return pow($baseRatio, $value) + rem;
+.clearfix {
+
+  &:after {
+    display: table;
+    clear: both;
+    content: '';
+  }
 }

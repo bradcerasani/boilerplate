@@ -1,7 +1,8 @@
 // =============================================
-// # Typography
+// # icons
 // =============================================
 
-@function modular-scale($value) {
-  @return pow($baseRatio, $value) + rem;
+.icon {
+  width: $baseSpace;
+  height: $baseSpace;
 }

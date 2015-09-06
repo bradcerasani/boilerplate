@@ -1,0 +1,189 @@
+// =============================================
+// # Padding
+// =============================================
+
+//  Zero
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.px0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.py0 {
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+// Smaller
+.p1 {
+  padding: $baseSpaceSmaller;
+}
+
+.pt1 {
+  padding-top: $baseSpaceSmaller;
+}
+
+.pr1 {
+  padding-right: $baseSpaceSmaller;
+}
+
+.pb1 {
+  padding-bottom: $baseSpaceSmaller;
+}
+
+.pl1 {
+  padding-left: $baseSpaceSmaller;
+}
+
+.px1 {
+  padding-right: $baseSpaceSmaller;
+  padding-left: $baseSpaceSmaller;
+}
+
+.py1 {
+  padding-top: $baseSpaceSmaller;
+  padding-bottom: $baseSpaceSmaller;
+}
+
+// Small
+.p2 {
+  padding: $baseSpaceSmall;
+}
+
+.pt2 {
+  padding-top: $baseSpaceSmall;
+}
+
+.pr2 {
+  padding-right: $baseSpaceSmall;
+}
+
+.pb2 {
+  padding-bottom: $baseSpaceSmall;
+}
+
+.pl2 {
+  padding-left: $baseSpaceSmall;
+}
+
+.px2 {
+  padding-right: $baseSpaceSmall;
+  padding-left: $baseSpaceSmall;
+}
+
+.py2 {
+  padding-top: $baseSpaceSmall;
+  padding-bottom: $baseSpaceSmall;
+}
+
+// Base
+.p3 {
+  padding: $baseSpace;
+}
+
+.pt3 {
+  padding-top: $baseSpace;
+}
+
+.pr3 {
+  padding-right: $baseSpace;
+}
+
+.pb3 {
+  padding-bottom: $baseSpace;
+}
+
+.pl3 {
+  padding-left: $baseSpace;
+}
+
+.px3 {
+  padding-right: $baseSpace;
+  padding-left: $baseSpace;
+}
+
+.py3 {
+  padding-top: $baseSpace;
+  padding-bottom: $baseSpace;
+}
+
+// Large
+.p4 {
+  padding: $baseSpaceLarge;
+}
+
+.pt4 {
+  padding-top: $baseSpaceLarge;
+}
+
+.pr4 {
+  padding-right: $baseSpaceLarge;
+}
+
+.pb4 {
+  padding-bottom: $baseSpaceLarge;
+}
+
+.pl4 {
+  padding-left: $baseSpaceLarge;
+}
+
+.px4 {
+  padding-right: $baseSpaceLarge;
+  padding-left: $baseSpaceLarge;
+}
+
+.py4 {
+  padding-top: $baseSpaceLarge;
+  padding-bottom: $baseSpaceLarge;
+}
+
+// Largest
+.p5 {
+  padding: $baseSpaceLarger;
+}
+
+.pt5 {
+  padding-top: $baseSpaceLarger;
+}
+
+.pr5 {
+  padding-right: $baseSpaceLarger;
+}
+
+.pb5 {
+  padding-bottom: $baseSpaceLarger;
+}
+
+.pl5 {
+  padding-left: $baseSpaceLarger;
+}
+
+.px5 {
+  padding-right: $baseSpaceLarger;
+  padding-left: $baseSpaceLarger;
+}
+
+.py5 {
+  padding-top: $baseSpaceLarger;
+  padding-bottom: $baseSpaceLarger;
+}

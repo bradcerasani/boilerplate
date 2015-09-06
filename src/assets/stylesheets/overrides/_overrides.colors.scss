@@ -1,0 +1,44 @@
+// =============================================
+// # Colors
+// =============================================
+
+@each $alias, $color in $colorVariants {
+
+  // Create base color classes
+  .color-#{$alias} {
+    color: color($alias);
+  }
+  .fill-#{$alias} {
+    fill: color($alias) !important;
+  }
+  .bg-#{$alias} {
+    background-color: color($alias);
+  }
+
+  // Loop through color maps
+  @each $variant, $value in $color {
+
+    // Use simplified classnames for social colors
+    @if $alias == social {
+
+      .color-#{$variant} {
+        color: $value;
+      }
+
+      .bg-#{$variant} {
+        background-color: $value;
+      }
+
+      // No need to recreate base color classes
+    } @else if $variant != base  {
+
+      .color-#{$alias}--#{$variant} {
+        color: $value;
+      }
+      .bg-#{$alias}--#{$variant} {
+        background-color: $value;
+      }
+
+    }
+  }
+}

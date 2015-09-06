@@ -1,7 +1,10 @@
 // =============================================
-// # Typography
+// # Lists UI
 // =============================================
 
-@function modular-scale($value) {
-  @return pow($baseRatio, $value) + rem;
+.list {
+
+  &--reset {
+    list-style: none;
+  }
 }

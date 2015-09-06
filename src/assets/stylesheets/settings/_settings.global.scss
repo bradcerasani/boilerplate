@@ -2,14 +2,16 @@
 // # Global
 // =============================================
 
+$baseMaxWidth: 1280px;
+
 $breakpoints: (
-  mobile: 480px,
-  tablet: 700px,
-  laptop: 1100px,
-  desktop: 1600px
+  small: 480px,
+  medium: 700px,
+  large: 1100px,
+  larger: 1600px
 );
 
-$border-radius: (
+$borderRadius: (
   small: 3px,
   medium: 6px,
   large: 12px
@@ -18,18 +20,31 @@ $border-radius: (
 $ratios: (
   golden: 1.618,
   octave: 2,
-  major-seventh: 1.875,
-  minor-seventh: 1.778,
-  major-sixth: 1.667,
-  minor-sixth: 1.6,
+  majorSeventh: 1.875,
+  minorSeventh: 1.778,
+  majorSixth: 1.667,
+  minorSixth: 1.6,
   fifth: 1.5,
-  augmented-fourth: 1.414,
+  augmentedFourth: 1.414,
   fourth: 1.333,
-  major-third: 1.25,
-  minor-third: 1.2,
+  majorThird: 1.25,
+  minorThird: 1.2
+);
+
+$transitionSpeed: (
+  slow: 800ms,
+  fast: 200ms
 );
 
 // Typography
-$base-font-size: 16px !default;
-$base-line-height: 1.5 !default;
-$base-ratio: map-get($ratios, minor-sixth);
+$baseFontSize: 16px;
+$baseLineHeight: 1.5;
+$baseRatio: map-get($ratios, majorThird);
+$baseFontFamily: sans-serif;
+
+$baseSpace: 1rem;
+
+$baseSpaceSmaller: .25rem;
+$baseSpaceSmall: .5rem;
+$baseSpaceLarge: 2rem;
+$baseSpaceLarger: 3rem;

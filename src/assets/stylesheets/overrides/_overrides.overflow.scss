@@ -1,0 +1,11 @@
+// =============================================
+// # Overflow
+// =============================================
+
+$values: visible, hidden, scroll, auto, inherit;
+
+@each $value in $values {
+  .#{$value} {
+    overflow: #{$value};
+  }
+}

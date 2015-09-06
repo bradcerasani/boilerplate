@@ -1,0 +1,12 @@
+// =============================================
+// # Links
+// =============================================
+
+a {
+  text-decoration: none;
+  color: color(green, dark);
+
+  @include attention() {
+    color: color(green);
+  }
+}

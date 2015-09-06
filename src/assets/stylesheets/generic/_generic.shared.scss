@@ -19,7 +19,6 @@ fieldset,
 figure,
 table,
 caption,
-hr,
-%margin-bottom {
-  margin-bottom: 1rem;
+hr {
+  margin-bottom: $baseSpace;
 }

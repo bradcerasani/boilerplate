@@ -3,32 +3,32 @@
 // =============================================
 
 // Base
-$_color-base-gray: #3d3d3d !default;
-$_color-base-white: #fafafa !default;
+$_colorBaseGray: #76787a !default;
+$_colorBaseWhite: #fafafa !default;
 
-// Colors
-$_color-primary: #49b749;
+// Brand Colors
+$_colorBrandGreen: #49b749;
 
 // Variants
-$color-variants: (
+$colorVariants: (
   gray: (
-    base: $_color-base-gray,
-    light: lighten($_color-base-gray, 10%),
-    dark: darken($_color-base-gray, 10%),
+    base: $_colorBaseGray,
+    light: lighten($_colorBaseGray, 10%),
+    lighter: lighten($_colorBaseGray, 40%),
+    dark: darken($_colorBaseGray, 10%)
   ),
-  primary: (
-    base: $_color-primary,
-    light: adjust-color($_color-primary,
-      $saturation: 10%,
-      $lightness: 10%
-    ),
-    dark: adjust-color($_color-primary,
-      $saturation: 10%,
-      $lightness: -10%
-    )
+  white: (
+    base: $_colorBaseWhite,
+    dark: darken($_colorBaseWhite, 10%)
+  ),
+  green: (
+    base: $_colorBrandGreen,
+    light: lighten($_colorBrandGreen, 10%),
+    lighter: lighten($_colorBrandGreen, 40%),
   ),
   social: (
-    twitter: #55acee,
-    google: #db4437
+    facebook: #3b5998,
+    google: #db4437,
+    twitter: #55acee
   ),
 );

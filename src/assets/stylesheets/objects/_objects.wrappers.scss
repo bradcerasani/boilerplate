@@ -1,0 +1,11 @@
+// =============================================
+// # Wrappers
+// =============================================
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $baseSpace;
+  padding-left: $baseSpace;
+  max-width: $baseMaxWidth;
+}

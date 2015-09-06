@@ -1,0 +1,200 @@
+// =============================================
+// # Margin
+// =============================================
+
+// Auto
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+// Zero
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mr0 {
+  margin-right: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.mx0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.my0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Smaller
+.m1 {
+  margin: $baseSpaceSmaller;
+}
+
+.mt1 {
+  margin-top: $baseSpaceSmaller;
+}
+
+.mr1 {
+  margin-right: $baseSpaceSmaller;
+}
+
+.mb1 {
+  margin-bottom: $baseSpaceSmaller;
+}
+
+.ml1 {
+  margin-left: $baseSpaceSmaller;
+}
+
+.mx4 {
+  margin-right: $baseSpaceSmaller;
+  margin-left: $baseSpaceSmaller;
+}
+
+.my4 {
+  margin-top: $baseSpaceSmaller;
+  margin-bottom: $baseSpaceSmaller;
+}
+
+// Small
+.m2 {
+  margin: $baseSpaceSmall;
+}
+
+.mt2 {
+  margin-top: $baseSpaceSmall;
+}
+
+.mr2 {
+  margin-right: $baseSpaceSmall;
+}
+
+.mb2 {
+  margin-bottom: $baseSpaceSmall;
+}
+
+.ml2 {
+  margin-left: $baseSpaceSmall;
+}
+
+.mx2 {
+  margin-right: $baseSpaceSmall;
+  margin-left: $baseSpaceSmall;
+}
+
+.my2 {
+  margin-top: $baseSpaceSmall;
+  margin-bottom: $baseSpaceSmall;
+}
+
+// Base
+.m3 {
+  margin: $baseSpace;
+}
+
+.mt3 {
+  margin-top: $baseSpace;
+}
+
+.mr3 {
+  margin-right: $baseSpace;
+}
+
+.mb3 {
+  margin-bottom: $baseSpace;
+}
+
+.ml3 {
+  margin-left: $baseSpace;
+}
+
+.mx3 {
+  margin-right: $baseSpace;
+  margin-left: $baseSpace;
+}
+
+.my3 {
+  margin-top: $baseSpace;
+  margin-bottom: $baseSpace;
+}
+
+// Large
+.m4 {
+  margin: $baseSpaceLarge;
+}
+
+.mt4 {
+  margin-top: $baseSpaceLarge;
+}
+
+.mr4 {
+  margin-right: $baseSpaceLarge;
+}
+
+.mb4 {
+  margin-bottom: $baseSpaceLarge;
+}
+
+.ml4 {
+  margin-left: $baseSpaceLarge;
+}
+
+.mx4 {
+  margin-right: $baseSpaceLarge;
+  margin-left: $baseSpaceLarge;
+}
+
+.my4 {
+  margin-top: $baseSpaceLarge;
+  margin-bottom: $baseSpaceLarge;
+}
+
+// Larger
+.m5 {
+  margin: $baseSpaceLarger;
+}
+
+.mt5 {
+  margin-top: $baseSpaceLarger;
+}
+
+.mr5 {
+  margin-right: $baseSpaceLarger;
+}
+
+.mb5 {
+  margin-bottom: $baseSpaceLarger;
+}
+
+.ml5 {
+  margin-left: $baseSpaceLarger;
+}
+
+.mx5 {
+  margin-right: $baseSpaceLarger;
+  margin-left: $baseSpaceLarger;
+}
+
+.my5 {
+  margin-top: $baseSpaceLarger;
+  margin-bottom: $baseSpaceLarger;
+}
