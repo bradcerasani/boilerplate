@@ -1,7 +1,0 @@
-// =============================================
-// # Typography
-// =============================================
-
-@function modular-scale($value) {
-  @return pow($baseRatio, $value) + rem;
-}

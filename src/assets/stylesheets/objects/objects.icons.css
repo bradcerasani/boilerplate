@@ -1,0 +1,8 @@
+/**
+ * Objects > Icons
+ */
+
+.icon {
+  width: var(--baseSpace);
+  height: var(--baseSpace);
+}

@@ -1,0 +1,109 @@
+/**
+ * Overrides > Padding
+ */
+
+ /* 0 Padding
+  ============================================================================ */
+
+.o-p0  {padding: 0}
+.o-pt0 {padding-top: 0}
+.o-pr0 {padding-right: 0}
+.o-pb0 {padding-bottom: 0}
+.o-pl0 {padding-left: 0}
+
+.o-px0 {padding-right: 0; padding-left: 0;}
+.o-py0 {padding-top: 0; padding-bottom: 0;}
+
+/* 1/4 baseSpace Padding
+  =========================================================================== */
+
+.o-p1\/4  {padding: calc(var(--baseSpace) / 4)}
+.o-pt1\/4 {padding-top: calc(var(--baseSpace) / 4)}
+.o-pr1\/4 {padding-right: calc(var(--baseSpace) / 4)}
+.o-pb1\/4 {padding-bottom: calc(var(--baseSpace) / 4)}
+.o-pl1\/4 {padding-left: calc(var(--baseSpace) / 4)}
+
+.o-px1\/4 {
+  padding-right: calc(var(--baseSpace) / 4);
+  padding-left: calc(var(--baseSpace) / 4);
+}
+
+.o-py1\/4 {
+  padding-top: calc(var(--baseSpace) / 4);
+  padding-bottom: calc(var(--baseSpace) / 4);
+}
+
+/* 1/2 baseSpace Padding
+  =========================================================================== */
+
+.o-p1\/2  {padding: calc(var(--baseSpace) / 2)}
+.o-pt1\/2 {padding-top: calc(var(--baseSpace) / 2)}
+.o-pr1\/2 {padding-right: calc(var(--baseSpace) / 2)}
+.o-pb1\/2 {padding-bottom: calc(var(--baseSpace) / 2)}
+.o-pl1\/2 {padding-left: calc(var(--baseSpace) / 2)}
+
+.o-px1\/2 {
+  padding-right: calc(var(--baseSpace) / 2);
+  padding-left: calc(var(--baseSpace) / 2);
+}
+
+.o-py1\/2 {
+  padding-top: calc(var(--baseSpace) / 2);
+  padding-bottom: calc(var(--baseSpace) / 2);
+}
+
+/* baseSpace Padding
+  =========================================================================== */
+.o-p1  {padding: var(--baseSpace)}
+.o-pt1 {padding-top: var(--baseSpace)}
+.o-pr1 {padding-right: var(--baseSpace)}
+.o-pb1 {padding-bottom: var(--baseSpace)}
+.o-pl1 {padding-left: var(--baseSpace)}
+
+.o-px1 {
+  padding-right: var(--baseSpace);
+  padding-left: var(--baseSpace);
+}
+
+.o-py1 {
+  padding-top: var(--baseSpace);
+  padding-bottom: var(--baseSpace);
+}
+
+/* 2x baseSpace Padding
+  =========================================================================== */
+
+.o-p2  {padding: calc(var(--baseSpace) * 2)}
+.o-pt2 {padding-top: calc(var(--baseSpace) * 2)}
+.o-pr2 {padding-right: calc(var(--baseSpace) * 2)}
+.o-pb2 {padding-bottom: calc(var(--baseSpace) * 2)}
+.o-pl2 {padding-left: calc(var(--baseSpace) * 2)}
+
+.o-px2 {
+  padding-right: calc(var(--baseSpace) * 2);
+  padding-left: calc(var(--baseSpace) * 2);
+}
+
+.o-py2 {
+  padding-top: calc(var(--baseSpace) * 2);
+  padding-bottom: calc(var(--baseSpace) * 2);
+}
+
+/* 4x baseSpace Padding
+  =========================================================================== */
+
+.o-p4  {padding: calc(var(--baseSpace) * 4)}
+.o-pt4 {padding-top: calc(var(--baseSpace) * 4)}
+.o-pr4 {padding-right: calc(var(--baseSpace) * 4)}
+.o-pb4 {padding-bottom: calc(var(--baseSpace) * 4)}
+.o-pl4 {padding-left: calc(var(--baseSpace) * 4)}
+
+.o-px4 {
+  padding-right: calc(var(--baseSpace) * 4);
+  padding-left: calc(var(--baseSpace) * 4);
+}
+
+.o-py4 {
+  padding-top: calc(var(--baseSpace) * 4);
+  padding-bottom: calc(var(--baseSpace) * 4);
+}

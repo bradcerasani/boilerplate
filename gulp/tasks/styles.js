@@ -1,14 +1,15 @@
 import gulp from 'gulp';
-import sass from 'gulp-sass';
-import sourcemaps from 'gulp-sourcemaps';
-import prefix from 'gulp-autoprefixer';
-import changed from 'gulp-changed';
+import postcss from 'gulp-postcss';
+import atImport from 'postcss-import';
+import customProperties from 'postcss-custom-properties';
+import customSelectors from 'postcss-custom-selectors';
+import customMedia from 'postcss-custom-media';
+import autoprefixer from 'autoprefixer';
 import browserSync from 'browser-sync';
 import size from 'gulp-size';
-import handleErrors from '../lib/error';
 
 const reload = browserSync.reload;
-const TARGET_BROWSERS = [
+const BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
   'ff >= 30',
@@ -21,16 +22,15 @@ const TARGET_BROWSERS = [
 ];
 
 function styles() {
-  return gulp.src('./src/assets/stylesheets/main.scss')
-    .pipe(sourcemaps.init())
-    .pipe(changed('styles', {extension: '.scss'}))
-    .pipe(sass({
-      precision: 10,
-      errLogToConsole: false,
-    }))
-    .on('error', handleErrors)
-    .pipe(prefix({browsers: TARGET_BROWSERS}))
-    .pipe(sourcemaps.write())
+  const processors = [
+    atImport,
+    customProperties,
+    customSelectors,
+    customMedia,
+    autoprefixer({browsers: BROWSERS}),
+  ];
+  return gulp.src('./src/assets/stylesheets/main.css')
+    .pipe(postcss(processors))
     .pipe(gulp.dest('./dist/assets/stylesheets'))
     .pipe(size({showFiles: true}))
     .pipe(reload({stream: true}));

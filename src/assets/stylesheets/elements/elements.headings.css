@@ -1,0 +1,30 @@
+/**
+ * Elements > Headings
+ */
+
+h1 {
+  font-size: var(--fontSizeLargest);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--fontSizeLarger);
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: var(--fontSizeLarger);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: var(--fontSizeLarge);
+}
+
+h5 {
+  font-size: var(--fontSizeLarge);
+}
+
+h6 {
+  font-size: var(--fontSizeBase);
+}

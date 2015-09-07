@@ -1,0 +1,17 @@
+/**
+ * Settings > Color
+ */
+
+:root {
+  --colorGrayLighter: #999;
+  --colorGrayLight: #666;
+  --colorGray: #333;
+  --colorGrayDark: #1a1a1a;
+
+  --colorGreen: #49b749;
+  --colorOffWhite: #f5f5f5;
+
+  --colorFacebook: #3b5998;
+  --colorGoogle: #db4437;
+  --colorTwitter: #1da1f2;
+}

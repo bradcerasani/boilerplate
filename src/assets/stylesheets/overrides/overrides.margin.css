@@ -1,0 +1,117 @@
+/**
+ * Overrides > Margin
+ */
+
+ /* Auto Margin
+   =========================================================================== */
+
+.o-m-auto  {margin: auto}
+.o-mx-auto {margin-right: auto; margin-left: auto;}
+.o-my-auto {margin-top: auto; margin-bottom: auto;}
+
+/* 0 Margin
+  =========================================================================== */
+
+.o-m0  {margin: 0}
+.o-mt0 {margin-top: 0}
+.o-mr0 {margin-right: 0}
+.o-mb0 {margin-bottom: 0}
+.o-ml0 {margin-left: 0}
+
+.o-mx0 {margin-right: 0; margin-left: 0;}
+.o-my0 {margin-top: 0; margin-bottom: 0;}
+
+/* 1/4 baseSpace Margin
+  =========================================================================== */
+
+.o-m1\/4  {margin: calc(var(--baseSpace) / 4)}
+.o-mt1\/4 {margin-top: calc(var(--baseSpace) / 4)}
+.o-mr1\/4 {margin-right: calc(var(--baseSpace) / 4)}
+.o-mb1\/4 {margin-bottom: calc(var(--baseSpace) / 4)}
+.o-ml1\/4 {margin-left: calc(var(--baseSpace) / 4)}
+
+.o-mx1\/4 {
+  margin-right: calc(var(--baseSpace) / 4);
+  margin-left: calc(var(--baseSpace) / 4);
+}
+
+.o-my1\/4 {
+  margin-top: calc(var(--baseSpace) / 4);
+  margin-bottom: calc(var(--baseSpace) / 4);
+}
+
+/* 1/2 baseSpace Margin
+  =========================================================================== */
+
+.o-m1\/2  {margin: calc(var(--baseSpace) / 2)}
+.o-mt1\/2 {margin-top: calc(var(--baseSpace) / 2)}
+.o-mr1\/2 {margin-right: calc(var(--baseSpace) / 2)}
+.o-mb1\/2 {margin-bottom: calc(var(--baseSpace) / 2)}
+.o-ml1\/2 {margin-left: calc(var(--baseSpace) / 2)}
+
+.o-mx1\/2 {
+  margin-right: calc(var(--baseSpace) / 2);
+  margin-left: calc(var(--baseSpace) / 2);
+}
+
+.o-my1\/2 {
+  margin-top: calc(var(--baseSpace) / 2);
+  margin-bottom: calc(var(--baseSpace) / 2);
+}
+
+/* baseSpace Margin
+  =========================================================================== */
+
+.o-m1  {margin: var(--baseSpace)}
+.o-mt1 {margin-top: var(--baseSpace)}
+.o-mr1 {margin-right: var(--baseSpace)}
+.o-mb1 {margin-bottom: var(--baseSpace)}
+.o-ml1 {margin-left: var(--baseSpace)}
+
+.o-mx1 {
+  margin-right: var(--baseSpace);
+  margin-left: var(--baseSpace);
+}
+
+.o-my1 {
+  margin-top: var(--baseSpace);
+  margin-bottom: var(--baseSpace);
+}
+
+/* 2x baseSpace Margin
+  =========================================================================== */
+
+.o-m2  {margin: calc(var(--baseSpace) * 2)}
+.o-mt2 {margin-top: calc(var(--baseSpace) * 2)}
+.o-mr2 {margin-right: calc(var(--baseSpace) * 2)}
+.o-mb2 {margin-bottom: calc(var(--baseSpace) * 2)}
+.o-ml2 {margin-left: calc(var(--baseSpace) * 2)}
+
+.o-mx2 {
+  margin-right: calc(var(--baseSpace) * 2);
+  margin-left: calc(var(--baseSpace) * 2);
+}
+
+.o-my2 {
+  margin-top: calc(var(--baseSpace) * 2);
+  margin-bottom: calc(var(--baseSpace) * 2);
+}
+
+/* 4x baseSpace Margin
+  =========================================================================== */
+
+.o-m4  {margin: calc(var(--baseSpace) * 4)}
+.o-mt4 {margin-top: calc(var(--baseSpace) * 4)}
+.o-mr4 {margin-right: calc(var(--baseSpace) * 4)}
+.o-mb4 {margin-bottom: calc(var(--baseSpace) * 4)}
+.o-ml4 {margin-left: calc(var(--baseSpace) * 4)}
+
+.o-mx4 {
+  margin-right: calc(var(--baseSpace) * 4);
+  margin-left: calc(var(--baseSpace) * 4);
+}
+
+.o-my4 {
+  margin-top: calc(var(--baseSpace) * 4);
+  margin-bottom: calc(var(--baseSpace) * 4);
+}

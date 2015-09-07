@@ -1,0 +1,23 @@
+/**
+ * Overrides > Overflow
+ */
+
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.auto {
+  overflow: auto;
+}
+
+.inherit {
+  overflow: inherit;
+}

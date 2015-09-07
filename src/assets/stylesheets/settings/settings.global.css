@@ -1,0 +1,33 @@
+/**
+ * Settings > Global
+ */
+
+:root {
+  --baseMaxWidth: 1280px;
+
+  --breakpointSmall: 480px;
+  --breakpointMedium: 700px;
+  --breakpointLarge: 1100px;
+  --breakpointLarger: 1600px;
+
+  --borderRadius: 6px;
+  --borderRadiusSmall: 3px;
+  --borderRadiusLarge: 12px;
+
+  --baseFontSize: 16px;
+  --baseLineHeight: 1.5;
+  --baseFontFamily: sans-serif;
+
+  --baseSpace: 1rem;
+
+  --fontSizeSmaller: .64rem;
+  --fontSizeSmall: .8rem;
+  --fontSizeBase: 1rem;
+  --fontSizeLarge: 1.25rem;
+  --fontSizeLarger: 1.563rem;
+  --fontSizeLargest: 1.953rem;
+
+  --transitionSpeed: 300ms;
+  --transitionSpeedFast: 200ms;
+  --transitionSpeedSlow: 500ms;
+}

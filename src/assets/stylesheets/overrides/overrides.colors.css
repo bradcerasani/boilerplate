@@ -1,0 +1,75 @@
+/**
+ * Overrides > Colors
+ */
+
+.color-gray {
+  color: var(--colorGray);
+}
+
+.bg-gray {
+  background-color: var(--colorGray);
+}
+
+.color-gray--light {
+  color: var(--colorGrayLight);
+}
+
+.bg-gray--light {
+  background-color: var(--colorGrayLight);
+}
+
+.color-gray--lighter {
+  color: var(--colorGrayLighter)
+}
+
+.bg-gray--lighter {
+  background-color: var(--colorGrayLighter)
+}
+
+.color-gray--dark {
+  color: var(--colorGrayDark);
+}
+
+.bg-gray--dark {
+  background-color: var(--colorGrayDark);
+}
+
+.color-white {
+  color: var(--colorOffWhite);
+}
+
+.bg-white {
+  background-color: var(--colorOffWhite);
+}
+
+.color-green {
+  color: var(--colorGreen);
+}
+
+.bg-green {
+  background-color: var(--colorGreen);
+}
+
+.color-facebook {
+  color: var(--colorFacebook);
+}
+
+.bg-facebook {
+  background-color: var(--colorFacebook);
+}
+
+.color-google {
+  color: var(--colorGoogle);
+}
+
+.bg-google {
+  background-color: var(--colorGoogle);
+}
+
+.color-twitter {
+  color: var(--colorTwitter);
+}
+
+.bg-twitter {
+  background-color: var(--colorTwitter);
+}

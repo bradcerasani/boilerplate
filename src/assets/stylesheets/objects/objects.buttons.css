@@ -1,0 +1,11 @@
+/**
+ * Objects > Buttons
+ */
+
+.button {
+  border-radius: var(--borderRadius);
+}
+
+.button--outlined {
+  border: 1px solid currentColor;
+}

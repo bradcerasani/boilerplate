@@ -1,0 +1,15 @@
+/**
+ * Objects > Links UI
+ */
+
+.link--inherit {
+   color: inherit;
+}
+
+.link--inherit:hover {
+  color: inherit;
+}
+
+.list--reset {
+  list-style: none;
+}
