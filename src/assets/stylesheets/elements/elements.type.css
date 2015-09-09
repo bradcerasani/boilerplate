@@ -1,0 +1,16 @@
+/**
+ * Elements > Type
+ */
+
+hr {
+  border-top: 1px solid var(--colorGrayDark);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+
+b,
+strong {
+  font-weight: 500;
+}

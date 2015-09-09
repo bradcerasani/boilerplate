@@ -1,0 +1,15 @@
+/**
+ * Utilities > Floats
+ */
+
+.u-floatRight {
+  float: right;
+}
+
+.u-floatLeft {
+  float: left;
+}
+
+.u-floatNone {
+  float: none;
+}

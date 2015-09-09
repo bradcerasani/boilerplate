@@ -1,0 +1,24 @@
+/**
+ * Generic > Shared
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+fieldset,
+figure,
+table,
+caption,
+hr {
+  margin-bottom: var(--baseSpace);
+}

@@ -1,0 +1,59 @@
+/**
+ * Objects > Layout
+ */
+
+.o-Layout {
+  display: flex;
+  margin-left: -1rem;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.o-Layout-item {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+/* Layout with slim gutters
+  ============================================================================ */
+
+.o-Layout--slim {
+  margin-left: -.25rem;
+}
+
+.o-Layout--slim > .o-Layout-item {
+  padding-left: .25rem;
+}
+
+/* Layout with no gutters
+ ============================================================================ */
+
+.o-Layout--flush {
+  margin-left: 0;
+}
+
+.o-Layout--flush > .o-Layout-item {
+  padding-left: 0;
+}
+
+/* Layout with nowrap
+ ============================================================================ */
+
+.o-Layout--pack {
+  margin-left: 0;
+  flex-wrap: nowrap;
+}
+
+.o-Layout--pack > .o-Layout-item {
+  padding-left: 0;
+  width: auto;
+  flex-grow: 1;
+}
+
+/* Reverse layout
+  ============================================================================ */
+
+.o-Layout--reverse {
+  flex-direction: row-reverse;
+}

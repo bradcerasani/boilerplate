@@ -1,0 +1,11 @@
+/**
+ * Objects > Wrapper
+ */
+
+.o-Wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--baseSpace);
+  padding-left: var(--baseSpace);
+  max-width: var(--baseMaxWidth);
+}

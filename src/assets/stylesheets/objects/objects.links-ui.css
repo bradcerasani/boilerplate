@@ -1,0 +1,20 @@
+/**
+ * Objects > Links UI
+ */
+
+.o-Link {}
+
+.o-link--clean,
+.o-link--clean:hover,
+.o-link--clean:focus,
+.o-link--clean:active {
+  text-decoration: none;
+}
+
+.o-Link--inherit {
+   color: inherit;
+}
+
+.o-Link--inherit:hover {
+  color: inherit;
+}

@@ -1,0 +1,19 @@
+/**
+ * Utilities > Typography
+ */
+
+.u-textCenter {
+  text-align: center;
+}
+
+.u-textJustify {
+  text-align: justify;
+}
+
+.u-textLeft {
+  text-align: left;
+}
+
+.u-textRight {
+  text-align: right;
+}

@@ -1,0 +1,23 @@
+/**
+ * Utilities > Overflow
+ */
+
+.u-auto {
+  overflow: auto;
+}
+
+.u-hidden {
+  overflow: hidden;
+}
+
+.u-inherit {
+  overflow: inherit;
+}
+
+.u-scroll {
+  overflow: scroll;
+}
+
+.u-visible {
+  overflow: visible;
+}
