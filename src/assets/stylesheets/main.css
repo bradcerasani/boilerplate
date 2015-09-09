@@ -7,7 +7,6 @@
 @import "settings/settings.colors";
 @import "settings/settings.global";
 
-
 /* Generic
   - Ground zero styles; normalize, reset, etc.
   =========================================================================== */
@@ -45,21 +44,19 @@
   - Designed pieces of UI. Explicitly named.
   =========================================================================== */
 
-
-
-/* Overrides
-  - Helpers, utilities, etc.
+/* Utilities
+  - Helpers, overrides, etc.
   =========================================================================== */
 
-@import "overrides/overrides.clearfix";
-@import "overrides/overrides.colors";
-@import "overrides/overrides.display";
-@import "overrides/overrides.floats";
-@import "overrides/overrides.margin";
-@import "overrides/overrides.overflow";
-@import "overrides/overrides.padding";
-@import "overrides/overrides.position";
-@import "overrides/overrides.typography";
-@import "overrides/overrides.utilities";
-@import "overrides/overrides.width";
-@import "overrides/overrides.zindex";
+@import "utilities/utilities.accessibility";
+@import "utilities/utilities.clearfix";
+@import "utilities/utilities.colors";
+@import "utilities/utilities.display";
+@import "utilities/utilities.floats";
+@import "utilities/utilities.margin";
+@import "utilities/utilities.overflow";
+@import "utilities/utilities.padding";
+@import "utilities/utilities.position";
+@import "utilities/utilities.typography";
+@import "utilities/utilities.width";
+@import "utilities/utilities.zindex";
