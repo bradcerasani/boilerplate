@@ -11,5 +11,5 @@ html {
   font-family: var(--baseFontFamily);
   line-height: var(--baseLineHeight);
   -moz-osx-font-smoothing: grayscale;
-   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }

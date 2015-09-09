@@ -2,18 +2,18 @@
  * Overrides > Typography
  */
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
+.u-textCenter {
   text-align: center;
 }
 
-.text-justify {
+.u-textJustify {
   text-align: justify;
+}
+
+.u-textLeft {
+  text-align: left;
+}
+
+.u-textRight {
+  text-align: right;
 }

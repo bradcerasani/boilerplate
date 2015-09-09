@@ -2,6 +2,8 @@
  * Objects > Lists UI
  */
 
-.list--reset {
+.o-List {}
+
+.o-List--reset {
   list-style: none;
 }

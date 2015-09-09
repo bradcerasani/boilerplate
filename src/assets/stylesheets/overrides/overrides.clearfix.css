@@ -2,7 +2,7 @@
  * Overrides > Clearfix
  */
 
-.clearfix:after {
+.u-cf:after {
   display: table;
   clear: both;
   content: '';

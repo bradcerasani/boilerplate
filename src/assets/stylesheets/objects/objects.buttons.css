@@ -2,10 +2,24 @@
  * Objects > Buttons
  */
 
-.button {
-  border-radius: var(--borderRadius);
-}
+ .o-Button {
+   display: inline-block;
+   padding: .25rem 1rem;
+   border-radius: var(--borderRadius);
+   background: transparent;
+   color: inherit;
+   text-align: center;
+   text-decoration: none;
+   white-space: normal;
+   font: inherit;
+   line-height: normal;
+   cursor: pointer;
+   -webkit-appearance: none;
+   user-select: none;
+ }
 
-.button--outlined {
-  border: 1px solid currentColor;
+.o-Button--outlined {
+  border-color: currentcolor;
+  border-style: solid;
+  border-width: 1px;
 }

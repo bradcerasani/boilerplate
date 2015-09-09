@@ -1,0 +1,75 @@
+/**
+ * Overrides > Width
+ */
+
+.u-sizeFull {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.u-size1\/12 {
+  width: 8.3333333333%;
+}
+
+.u-size2\/12 {
+  width: 16.6666666667%;
+}
+
+.u-size1\/5 {
+  width: 20%;
+}
+
+.u-size1\/4,
+.u-size3\/12 {
+  width: 25%;
+}
+
+.u-size1\/3,
+.u-size4\/12 {
+  width: 33.3333333333%;
+}
+
+.u-size2\/5 {
+  width: 40%;
+}
+
+.u-size5\/12 {
+  width: 41.6666666667%;
+}
+
+.u-size1\/2,
+.u-size2\/4,
+.u-size6\/12 {
+  width: 50%;
+}
+
+.u-size3\/5 {
+  width: 60%;
+}
+
+.u-size7\/12 {
+  width: 58.3333333333%;
+}
+
+.u-size2\/3,
+.u-size8\/12 {
+  width: 66.6666666667%;
+}
+
+.u-size3\/4,
+.u-size9\/12 {
+  width: 75%;
+}
+
+.u-size4\/5 {
+  width: 80%;
+}
+
+.u-size10\/12 {
+  width: 83.3333333333%;
+}
+
+.u-size11\/12 {
+  width: 91.6666666667%;
+}

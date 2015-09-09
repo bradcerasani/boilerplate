@@ -2,7 +2,7 @@
  * Overrides > Utilities
  */
 
-.visually-hidden {
+.u-visuallyHidden {
   position: absolute;
   clip: rect(0, 0, 0, 0);
 }

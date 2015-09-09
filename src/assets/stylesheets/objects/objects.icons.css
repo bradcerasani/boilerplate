@@ -2,7 +2,7 @@
  * Objects > Icons
  */
 
-.icon {
+.o-Icon {
   width: var(--baseSpace);
   height: var(--baseSpace);
 }

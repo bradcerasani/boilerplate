@@ -2,14 +2,30 @@
  * Overrides > Position
  */
 
- .absolute {
+.u-posAbsolute {
   position: absolute;
 }
 
-.fixed {
+.u-posFixed {
   position: fixed;
 }
 
-.relative {
+.u-posRelative {
   position: relative;
+}
+
+.u-top0 {
+  top: 0;
+}
+
+.u-right0 {
+  right: 0;
+}
+
+.u-bottom0 {
+  bottom: 0;
+}
+
+.u-left0 {
+  left: 0;
 }

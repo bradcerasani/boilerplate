@@ -2,7 +2,7 @@
  * Objects > Wrapper
  */
 
-.wrapper {
+.o-Wrapper {
   margin-right: auto;
   margin-left: auto;
   padding-right: var(--baseSpace);

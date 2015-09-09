@@ -2,22 +2,22 @@
  * Overrides > Overflow
  */
 
-.visible {
-  overflow: visible;
-}
-
-.hidden {
-  overflow: hidden;
-}
-
-.scroll {
-  overflow: scroll;
-}
-
-.auto {
+.u-auto {
   overflow: auto;
 }
 
-.inherit {
+.u-hidden {
+  overflow: hidden;
+}
+
+.u-inherit {
   overflow: inherit;
+}
+
+.u-scroll {
+  overflow: scroll;
+}
+
+.u-visible {
+  overflow: visible;
 }

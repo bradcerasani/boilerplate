@@ -2,26 +2,26 @@
  * Overrides > Display
  */
 
-.none {
-  display: none;
-}
-
-.inline {
-  display: inline;
-}
-
-.block {
+.u-block {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.flex {
+.u-flex {
   display: flex;
 }
 
-.inline-flex {
+.u-inline {
+  display: inline;
+}
+
+.u-inlineBlock {
+  display: inline-block;
+}
+
+.u-inlineFlex {
   display: inline-flex;
+}
+
+.u-none {
+  display: none;
 }

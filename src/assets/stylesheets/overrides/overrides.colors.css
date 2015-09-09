@@ -2,74 +2,84 @@
  * Overrides > Colors
  */
 
-.color-gray {
-  color: var(--colorGray);
+.u-white {
+  color: white;
 }
 
-.bg-gray {
-  background-color: var(--colorGray);
+.u-bgWhite {
+  background-color: white;
 }
 
-.color-gray--light {
-  color: var(--colorGrayLight);
-}
+/* Neutrals
+ =========================================================================== */
 
-.bg-gray--light {
-  background-color: var(--colorGrayLight);
-}
-
-.color-gray--lighter {
-  color: var(--colorGrayLighter)
-}
-
-.bg-gray--lighter {
-  background-color: var(--colorGrayLighter)
-}
-
-.color-gray--dark {
-  color: var(--colorGrayDark);
-}
-
-.bg-gray--dark {
-  background-color: var(--colorGrayDark);
-}
-
-.color-white {
+.u-offWhite {
   color: var(--colorOffWhite);
 }
 
-.bg-white {
+.u-offWhiteBg {
   background-color: var(--colorOffWhite);
 }
 
-.color-green {
-  color: var(--colorGreen);
+.u-grayLighter {
+  color: var(--colorGrayLighter);
 }
 
-.bg-green {
-  background-color: var(--colorGreen);
+.u-grayLighterBg {
+  background-color: var(--colorGrayLighter);
 }
 
-.color-facebook {
+.u-grayLight {
+  color: var(--colorGrayLight);
+}
+
+.u-grayLightBg {
+  background-color: var(--colorGrayLight);
+}
+
+.u-gray {
+  color: var(--colorGray);
+}
+
+.u-grayBg {
+  background-color: var(--colorGray);
+}
+
+.u-grayDark {
+  color: var(--colorGrayDark);
+}
+
+.u-grayDarkBg {
+  background-color: var(--colorGrayDark);
+}
+
+/* Colors
+ =========================================================================== */
+
+
+/* Social Colours
+ =========================================================================== */
+
+.u-facebook {
   color: var(--colorFacebook);
 }
 
-.bg-facebook {
+.u-facebookBg {
   background-color: var(--colorFacebook);
 }
 
-.color-google {
+.u-google {
   color: var(--colorGoogle);
 }
 
-.bg-google {
+.u-googleBg {
   background-color: var(--colorGoogle);
 }
 
-.color-twitter {
+.u-twitter {
   color: var(--colorTwitter);
 }
 
-.bg-twitter {
+.u-twitterBg {
   background-color: var(--colorTwitter);
 }
