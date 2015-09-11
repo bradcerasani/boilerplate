@@ -13,8 +13,8 @@ gulp.registry(hub);
 function watch() {
   gulp.watch(['src/**/*.handlebars', '!src/partials/**/*.handlebars'], gulp.task('changedTemplates'));
   gulp.watch(['src/partials/**/*.handlebars', 'src/**/*.json'], gulp.task('allTemplates'));
-  gulp.watch('src/assets/javascripts/**', gulp.task('scripts'));
-  gulp.watch('src/assets/stylesheets/**', gulp.task('styles'));
+  gulp.watch('src/assets/scripts/**', gulp.task('scripts'));
+  gulp.watch('src/assets/styles/**', gulp.task('styles'));
   gulp.watch(['src/assets/images/**', '!src/assets/images/icons/**'], gulp.task('images'));
   gulp.watch('src/assets/images/icons/**', gulp.task('icons'));
 }

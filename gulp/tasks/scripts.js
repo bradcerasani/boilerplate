@@ -9,7 +9,7 @@ import size from 'gulp-size';
 import error from '../lib/error';
 
 const reload = browserSync.reload;
-const bundler = watchify(browserify('./src/assets/javascripts/main.js', watchify.args));
+const bundler = watchify(browserify('./src/assets/scripts/main.js', watchify.args));
 
 function bundle() {
   return bundler.bundle()
@@ -18,7 +18,7 @@ function bundle() {
       .pipe(buffer())
       .pipe(sourcemaps.init({loadMaps: true}))
       .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('./dist/assets/javascripts'))
+    .pipe(gulp.dest('./dist/assets/scripts'))
     .pipe(size({showFiles: true}))
     .pipe(reload({stream: true}));
 }

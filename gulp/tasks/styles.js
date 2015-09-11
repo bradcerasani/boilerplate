@@ -29,9 +29,9 @@ function styles() {
     customMedia,
     autoprefixer({browsers: BROWSERS}),
   ];
-  return gulp.src('./src/assets/stylesheets/main.css')
+  return gulp.src('./src/assets/styles/main.css')
     .pipe(postcss(processors))
-    .pipe(gulp.dest('./dist/assets/stylesheets'))
+    .pipe(gulp.dest('./dist/assets/styles'))
     .pipe(size({showFiles: true}))
     .pipe(reload({stream: true}));
 }
