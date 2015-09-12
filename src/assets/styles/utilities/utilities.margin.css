@@ -27,7 +27,7 @@
   .u-myAuto\@lg {margin-top: auto; margin-bottom: auto;}
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-mAuto\@xl  {margin: auto}
   .u-mxAuto\@xl {margin-right: auto; margin-left: auto;}
   .u-myAuto\@xl {margin-top: auto; margin-bottom: auto;}
@@ -78,7 +78,7 @@
   .u-my0\@lg {margin-top: 0; margin-bottom: 0;}
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m0\@xl  {margin: 0;}
   .u-mt0\@xl {margin-top: 0;}
   .u-mr0\@xl {margin-right: 0;}
@@ -162,7 +162,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m1\/4\@xl  {margin: calc(var(--baseSpace) / 4);}
   .u-mt1\/4\@xl {margin-top: calc(var(--baseSpace) / 4);}
   .u-mr1\/4\@xl {margin-right: calc(var(--baseSpace) / 4);}
@@ -253,7 +253,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m1\/2\@xl  {margin: calc(var(--baseSpace) / 2);}
   .u-mt1\/2\@xl {margin-top: calc(var(--baseSpace) / 2);}
   .u-mr1\/2\@xl {margin-right: calc(var(--baseSpace) / 2);}
@@ -344,7 +344,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m1\@xl  {margin: var(--baseSpace);}
   .u-mt1\@xl {margin-top: var(--baseSpace);}
   .u-mr1\@xl {margin-right: var(--baseSpace);}
@@ -435,7 +435,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m2\@xl  {margin: calc(var(--baseSpace) * 2);}
   .u-mt2\@xl {margin-top: calc(var(--baseSpace) * 2);}
   .u-mr2\@xl {margin-right: calc(var(--baseSpace) * 2);}
@@ -526,7 +526,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-m4\@xl  {margin: calc(var(--baseSpace) * 4);}
   .u-mt4\@xl {margin-top: calc(var(--baseSpace) * 4);}
   .u-mr4\@xl {margin-right: calc(var(--baseSpace) * 4);}

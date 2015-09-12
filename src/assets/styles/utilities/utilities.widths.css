@@ -308,7 +308,7 @@
 /* Larger Breakpoint
   =========================================================================== */
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-sizeFull\@xl {
     display: block;
     box-sizing: border-box;

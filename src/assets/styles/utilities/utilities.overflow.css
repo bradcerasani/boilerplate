@@ -32,7 +32,7 @@
   .u-visible\@lg  {overflow: visible;}
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-auto\@xl     {overflow: auto}
   .u-hidden\@xl   {overflow: hidden}
   .u-inherit\@xl  {overflow: inherit}

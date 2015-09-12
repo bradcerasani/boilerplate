@@ -44,7 +44,7 @@
   .u-600\@lg {font-weight: 600}
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-textCenter\@xl   {text-align: center}
   .u-textJustify\@xl  {text-align: justify}
   .u-textLeft\@xl     {text-align: left}

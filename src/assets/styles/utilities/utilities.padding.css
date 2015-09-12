@@ -132,7 +132,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-p1\/4\@xl  {padding: calc(var(--baseSpace) / 4);}
   .u-pt1\/4\@xl {padding-top: calc(var(--baseSpace) / 4);}
   .u-pr1\/4\@xl {padding-right: calc(var(--baseSpace) / 4);}
@@ -223,7 +223,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-p1\/2\@xl  {padding: calc(var(--baseSpace) / 2);}
   .u-pt1\/2\@xl {padding-top: calc(var(--baseSpace) / 2);}
   .u-pr1\/2\@xl {padding-right: calc(var(--baseSpace) / 2);}
@@ -314,7 +314,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-p1\@xl  {padding: var(--baseSpace);}
   .u-pt1\@xl {padding-top: var(--baseSpace);}
   .u-pr1\@xl {padding-right: var(--baseSpace);}
@@ -405,7 +405,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-p\@xl  {padding: calc(var(--baseSpace) * 2);}
   .u-pt2\@xl {padding-top: calc(var(--baseSpace) * 2);}
   .u-pr2\@xl {padding-right: calc(var(--baseSpace) * 2);}
@@ -496,7 +496,7 @@
   }
 }
 
-@media (--larger) {
+@media (--extraLarge) {
   .u-p4\@xl  {padding: calc(var(--baseSpace) * 4);}
   .u-pt4\@xl {padding-top: calc(var(--baseSpace) * 4);}
   .u-pr4\@xl {padding-right: calc(var(--baseSpace) * 4);}
