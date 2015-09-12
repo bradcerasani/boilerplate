@@ -5,11 +5,6 @@
 :root {
   --baseMaxWidth: 1280px;
 
-  --breakpointSmall: 480px;
-  --breakpointMedium: 700px;
-  --breakpointLarge: 1100px;
-  --breakpointLarger: 1600px;
-
   --borderRadius: 6px;
   --borderRadiusSmall: 3px;
   --borderRadiusLarge: 12px;
