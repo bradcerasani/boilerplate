@@ -2,22 +2,40 @@
  * Utilities > Overflow
  */
 
-.u-auto {
-  overflow: auto;
+.u-auto     {overflow: auto}
+.u-hidden   {overflow: hidden}
+.u-inherit  {overflow: inherit}
+.u-scroll   {overflow: scroll}
+.u-visible  {overflow: visible;}
+
+@media (--small) {
+  .u-auto\@sm     {overflow: auto}
+  .u-hidden\@sm   {overflow: hidden}
+  .u-inherit\@sm  {overflow: inherit}
+  .u-scroll\@sm   {overflow: scroll}
+  .u-visible\@sm  {overflow: visible;}
 }
 
-.u-hidden {
-  overflow: hidden;
+@media (--medium) {
+  .u-auto\@md     {overflow: auto}
+  .u-hidden\@md   {overflow: hidden}
+  .u-inherit\@md  {overflow: inherit}
+  .u-scroll\@md   {overflow: scroll}
+  .u-visible\@md  {overflow: visible;}
 }
 
-.u-inherit {
-  overflow: inherit;
+@media (--large) {
+  .u-auto\@lg     {overflow: auto}
+  .u-hidden\@lg   {overflow: hidden}
+  .u-inherit\@lg  {overflow: inherit}
+  .u-scroll\@lg   {overflow: scroll}
+  .u-visible\@lg  {overflow: visible;}
 }
 
-.u-scroll {
-  overflow: scroll;
-}
-
-.u-visible {
-  overflow: visible;
+@media (--larger) {
+  .u-auto\@xl     {overflow: auto}
+  .u-hidden\@xl   {overflow: hidden}
+  .u-inherit\@xl  {overflow: inherit}
+  .u-scroll\@xl   {overflow: scroll}
+  .u-visible\@xl  {overflow: visible;}
 }

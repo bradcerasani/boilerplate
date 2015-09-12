@@ -2,33 +2,14 @@
  * Utilities > Position
  */
 
-.u-absolute {
-  position: absolute;
-}
+.u-absolute {position: absolute}
+.u-fixed    {position: fixed}
+.u-relative {position: relative}
 
-.u-fixed {
-  position: fixed;
-}
-
-.u-relative {
-  position: relative;
-}
-
-.u-top0 {
-  top: 0;
-}
-
-.u-right0 {
-  right: 0;
-}
-
-.u-bottom0 {
-  bottom: 0;
-}
-
-.u-left0 {
-  left: 0;
-}
+.u-top0     {top: 0}
+.u-right0   {right: 0}
+.u-bottom0  {bottom: 0}
+.u-left0    {left: 0}
 
 .u-absoluteEdge {
   position: absolute;
@@ -36,4 +17,80 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+@media (--small) {
+  .u-absolute\@sm {position: absolute}
+  .u-fixed\@sm    {position: fixed}
+  .u-relative\@sm {position: relative}
+
+  .u-top0\@sm     {top: 0}
+  .u-right0\@sm   {right: 0}
+  .u-bottom0\@sm  {bottom: 0}
+  .u-left0\@sm    {left: 0}
+
+  .u-absoluteEdge\@sm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--medium) {
+  .u-absolute\@md {position: absolute}
+  .u-fixed\@md    {position: fixed}
+  .u-relative\@md {position: relative}
+
+  .u-top0\@md     {top: 0}
+  .u-right0\@md   {right: 0}
+  .u-bottom0\@md  {bottom: 0}
+  .u-left0\@md    {left: 0}
+
+  .u-absoluteEdge\@md {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--large) {
+  .u-absolute\@lg {position: absolute}
+  .u-fixed\@lg    {position: fixed}
+  .u-relative\@lg {position: relative}
+
+  .u-top0\@lg     {top: 0}
+  .u-right0\@lg   {right: 0}
+  .u-bottom0\@lg  {bottom: 0}
+  .u-left0\@lg    {left: 0}
+
+  .u-absoluteEdge\@lg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--larger) {
+  .u-absolute\@xl {position: absolute}
+  .u-fixed\@xl    {position: fixed}
+  .u-relative\@xl {position: relative}
+
+  .u-top0\@xl     {top: 0}
+  .u-right0\@xl   {right: 0}
+  .u-bottom0\@xl  {bottom: 0}
+  .u-left0\@xl    {left: 0}
+
+  .u-absoluteEdge\@xl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 }

@@ -2,26 +2,45 @@
  * Utilities > Display
  */
 
-.u-block {
-  display: block;
+.u-block        {display: block}
+.u-flex         {display: flex}
+.u-inline       {display: inline}
+.u-inlineBlock  {display: inline-block}
+.u-inlineFlex   {display: inline-flex}
+.u-none         {display: none}
+
+@media (--small) {
+  .u-block\@sm        {display: block}
+  .u-flex\@sm         {display: flex}
+  .u-inline\@sm       {display: inline}
+  .u-inlineBlock\@sm  {display: inline-block}
+  .u-inlineFlex\@sm   {display: inline-flex}
+  .u-none\@sm         {display: none}
 }
 
-.u-flex {
-  display: flex;
+@media (--medium) {
+  .u-block\@md        {display: block}
+  .u-flex\@md         {display: flex}
+  .u-inline\@md       {display: inline}
+  .u-inlineBlock\@md  {display: inline-block}
+  .u-inlineFlex\@md   {display: inline-flex}
+  .u-none\@md         {display: none}
 }
 
-.u-inline {
-  display: inline;
+@media (--large) {
+  .u-block\@lg        {display: block}
+  .u-flex\@lg         {display: flex}
+  .u-inline\@lg       {display: inline}
+  .u-inlineBlock\@lg  {display: inline-block}
+  .u-inlineFlex\@lg   {display: inline-flex}
+  .u-none\@lg         {display: none}
 }
 
-.u-inlineBlock {
-  display: inline-block;
-}
-
-.u-inlineFlex {
-  display: inline-flex;
-}
-
-.u-none {
-  display: none;
+@media (--larger) {
+  .u-block\@xl        {display: block}
+  .u-flex\@xl         {display: flex}
+  .u-inline\@xl       {display: inline}
+  .u-inlineBlock\@xl  {display: inline-block}
+  .u-inlineFlex\@xl   {display: inline-flex}
+  .u-none\@xl         {display: none}
 }

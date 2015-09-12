@@ -2,14 +2,30 @@
  * Utilities > Floats
  */
 
-.u-floatRight {
-  float: right;
+.u-floatRight {float: right}
+.u-floatLeft  {float: left}
+.u-floatNone  {float: none}
+
+@media (--small) {
+  .u-floatRight\@sm {float: right}
+  .u-floatLeft\@sm  {float: left}
+  .u-floatNone\@sm  {float: none}
 }
 
-.u-floatLeft {
-  float: left;
+@media (--medium) {
+  .u-floatRight\@md {float: right}
+  .u-floatLeft\@md  {float: left}
+  .u-floatNone\@md  {float: none}
 }
 
-.u-floatNone {
-  float: none;
+@media (--large) {
+  .u-floatRight\@lg {float: right}
+  .u-floatLeft\@lg  {float: left}
+  .u-floatNone\@lg  {float: none}
+}
+
+@media (--larger) {
+  .u-floatRight\@xl {float: right}
+  .u-floatLeft\@xl  {float: left}
+  .u-floatNone\@xl  {float: none}
 }

@@ -2,30 +2,55 @@
  * Utilities > Typography
  */
 
-.u-textCenter {
-  text-align: center;
+.u-textCenter   {text-align: center}
+.u-textJustify  {text-align: justify}
+.u-textLeft     {text-align: left}
+.u-textRight    {text-align: right}
+
+.u-200 {font-weight: 200}
+.u-400 {font-weight: 400}
+.u-600 {font-weight: 600}
+
+@media (--small) {
+  .u-textCenter\@sm   {text-align: center}
+  .u-textJustify\@sm  {text-align: justify}
+  .u-textLeft\@sm     {text-align: left}
+  .u-textRight\@sm    {text-align: right}
+
+  .u-200\@sm {font-weight: 200}
+  .u-400\@sm {font-weight: 400}
+  .u-600\@sm {font-weight: 600}
 }
 
-.u-textJustify {
-  text-align: justify;
+@media (--medium) {
+  .u-textCenter\@md   {text-align: center}
+  .u-textJustify\@md  {text-align: justify}
+  .u-textLeft\@md     {text-align: left}
+  .u-textRight\@md    {text-align: right}
+
+  .u-200\@md {font-weight: 200}
+  .u-400\@md {font-weight: 400}
+  .u-600\@md {font-weight: 600}
 }
 
-.u-textLeft {
-  text-align: left;
+@media (--large) {
+  .u-textCenter\@lg   {text-align: center}
+  .u-textJustify\@lg  {text-align: justify}
+  .u-textLeft\@lg     {text-align: left}
+  .u-textRight\@lg    {text-align: right}
+
+  .u-200\@lg {font-weight: 200}
+  .u-400\@lg {font-weight: 400}
+  .u-600\@lg {font-weight: 600}
 }
 
-.u-textRight {
-  text-align: right;
-}
+@media (--larger) {
+  .u-textCenter\@xl   {text-align: center}
+  .u-textJustify\@xl  {text-align: justify}
+  .u-textLeft\@xl     {text-align: left}
+  .u-textRight\@xl    {text-align: right}
 
-.u-200 {
-  font-weight: 200;
-}
-
-.u-400 {
-  font-weight: 400;
-}
-
-.u-600 {
-  font-weight: 600;
+  .u-200\@xl {font-weight: 200}
+  .u-400\@xl {font-weight: 400}
+  .u-600\@xl {font-weight: 600}
 }
