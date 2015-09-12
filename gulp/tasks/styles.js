@@ -1,6 +1,7 @@
 import gulp from 'gulp';
 import postcss from 'gulp-postcss';
 import atImport from 'postcss-import';
+import csswring from 'csswring';
 import customProperties from 'postcss-custom-properties';
 import customSelectors from 'postcss-custom-selectors';
 import customMedia from 'postcss-custom-media';
@@ -28,11 +29,12 @@ function styles() {
     customSelectors,
     customMedia,
     autoprefixer({browsers: BROWSERS}),
+    csswring,
   ];
   return gulp.src('./src/assets/styles/main.css')
     .pipe(postcss(processors))
     .pipe(gulp.dest('./dist/assets/styles'))
-    .pipe(size({showFiles: true}))
+    .pipe(size({showFiles: true, gzip: true}))
     .pipe(reload({stream: true}));
 }
 
