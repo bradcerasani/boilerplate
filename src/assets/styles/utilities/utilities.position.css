@@ -2,15 +2,15 @@
  * Utilities > Position
  */
 
-.u-posAbsolute {
+.u-absolute {
   position: absolute;
 }
 
-.u-posFixed {
+.u-fixed {
   position: fixed;
 }
 
-.u-posRelative {
+.u-relative {
   position: relative;
 }
 
@@ -27,5 +27,13 @@
 }
 
 .u-left0 {
+  left: 0;
+}
+
+.u-absoluteEdge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
 }

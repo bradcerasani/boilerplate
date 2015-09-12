@@ -1,0 +1,383 @@
+/**
+ * Utilities > Width
+ */
+
+.u-sizeFull {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.u-size1\/12 {
+  width: 8.3333333333%;
+}
+
+.u-size2\/12 {
+  width: 16.6666666667%;
+}
+
+.u-size1\/5 {
+  width: 20%;
+}
+
+.u-size1\/4,
+.u-size3\/12 {
+  width: 25%;
+}
+
+.u-size1\/3,
+.u-size4\/12 {
+  width: 33.3333333333%;
+}
+
+.u-size2\/5 {
+  width: 40%;
+}
+
+.u-size5\/12 {
+  width: 41.6666666667%;
+}
+
+.u-size1\/2,
+.u-size2\/4,
+.u-size6\/12 {
+  width: 50%;
+}
+
+.u-size3\/5 {
+  width: 60%;
+}
+
+.u-size7\/12 {
+  width: 58.3333333333%;
+}
+
+.u-size2\/3,
+.u-size8\/12 {
+  width: 66.6666666667%;
+}
+
+.u-size3\/4,
+.u-size9\/12 {
+  width: 75%;
+}
+
+.u-size4\/5 {
+  width: 80%;
+}
+
+.u-size10\/12 {
+  width: 83.3333333333%;
+}
+
+.u-size11\/12 {
+  width: 91.6666666667%;
+}
+
+/* Small Breakpoint
+  =========================================================================== */
+
+@media (--small) {
+  .u-sizeFull\@sm {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .u-size1\/12\@sm {
+    width: 8.3333333333%;
+  }
+
+  .u-size2\/12\@sm {
+    width: 16.6666666667%;
+  }
+
+  .u-size1\/5\@sm {
+    width: 20%;
+  }
+
+  .u-size1\/4\@sm,
+  .u-size3\/12\@sm {
+    width: 25%;
+  }
+
+  .u-size1\/3\@sm,
+  .u-size4\/12\@sm {
+    width: 33.3333333333%;
+  }
+
+  .u-size2\/5\@sm {
+    width: 40%;
+  }
+
+  .u-size5\/12\@sm {
+    width: 41.6666666667%;
+  }
+
+  .u-size1\/2\@sm,
+  .u-size2\/4\@sm,
+  .u-size6\/12\@sm {
+    width: 50%;
+  }
+
+  .u-size3\/5\@sm {
+    width: 60%;
+  }
+
+  .u-size7\/12\@sm {
+    width: 58.3333333333%;
+  }
+
+  .u-size2\/3\@sm,
+  .u-size8\/12\@sm {
+    width: 66.6666666667%;
+  }
+
+  .u-size3\/4\@sm,
+  .u-size9\/12\@sm {
+    width: 75%;
+  }
+
+  .u-size4\/5\@sm {
+    width: 80%;
+  }
+
+  .u-size10\/12\@sm {
+    width: 83.3333333333%;
+  }
+
+  .u-size11\/12\@sm {
+    width: 91.6666666667%;
+  }
+}
+
+/* Medium Breakpoint
+  =========================================================================== */
+
+@media (--medium) {
+  .u-sizeFull\@md {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .u-size1\/12\@md {
+    width: 8.3333333333%;
+  }
+
+  .u-size2\/12\@md {
+    width: 16.6666666667%;
+  }
+
+  .u-size1\/5\@md {
+    width: 20%;
+  }
+
+  .u-size1\/4\@md,
+  .u-size3\/12\@md {
+    width: 25%;
+  }
+
+  .u-size1\/3\@md,
+  .u-size4\/12\@md {
+    width: 33.3333333333%;
+  }
+
+  .u-size2\/5\@md {
+    width: 40%;
+  }
+
+  .u-size5\/12\@md {
+    width: 41.6666666667%;
+  }
+
+  .u-size1\/2\@md,
+  .u-size2\/4\@md,
+  .u-size6\/12\@md {
+    width: 50%;
+  }
+
+  .u-size3\/5\@md {
+    width: 60%;
+  }
+
+  .u-size7\/12\@md {
+    width: 58.3333333333%;
+  }
+
+  .u-size2\/3\@md,
+  .u-size8\/12\@md {
+    width: 66.6666666667%;
+  }
+
+  .u-size3\/4\@md,
+  .u-size9\/12\@md {
+    width: 75%;
+  }
+
+  .u-size4\/5\@md {
+    width: 80%;
+  }
+
+  .u-size10\/12\@md {
+    width: 83.3333333333%;
+  }
+
+  .u-size11\/12\@md {
+    width: 91.6666666667%;
+  }
+}
+
+/* Large Breakpoint
+  =========================================================================== */
+
+@media (--large) {
+  .u-sizeFull\@lg {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .u-size1\/12\@lg {
+    width: 8.3333333333%;
+  }
+
+  .u-size2\/12\@lg {
+    width: 16.6666666667%;
+  }
+
+  .u-size1\/5\@lg {
+    width: 20%;
+  }
+
+  .u-size1\/4\@lg,
+  .u-size3\/12\@lg {
+    width: 25%;
+  }
+
+  .u-size1\/3\@lg,
+  .u-size4\/12\@lg {
+    width: 33.3333333333%;
+  }
+
+  .u-size2\/5\@lg {
+    width: 40%;
+  }
+
+  .u-size5\/12\@lg {
+    width: 41.6666666667%;
+  }
+
+  .u-size1\/2\@lg,
+  .u-size2\/4\@lg,
+  .u-size6\/12\@lg {
+    width: 50%;
+  }
+
+  .u-size3\/5\@lg {
+    width: 60%;
+  }
+
+  .u-size7\/12\@lg {
+    width: 58.3333333333%;
+  }
+
+  .u-size2\/3\@lg,
+  .u-size8\/12\@lg {
+    width: 66.6666666667%;
+  }
+
+  .u-size3\/4\@lg,
+  .u-size9\/12\@lg {
+    width: 75%;
+  }
+
+  .u-size4\/5\@lg {
+    width: 80%;
+  }
+
+  .u-size10\/12\@lg {
+    width: 83.3333333333%;
+  }
+
+  .u-size11\/12\@lg {
+    width: 91.6666666667%;
+  }
+}
+
+/* Larger Breakpoint
+  =========================================================================== */
+
+@media (--larger) {
+  .u-sizeFull\@xl {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .u-size1\/12\@xl {
+    width: 8.3333333333%;
+  }
+
+  .u-size2\/12\@xl {
+    width: 16.6666666667%;
+  }
+
+  .u-size1\/5\@xl {
+    width: 20%;
+  }
+
+  .u-size1\/4\@xl,
+  .u-size3\/12\@xl {
+    width: 25%;
+  }
+
+  .u-size1\/3\@xl,
+  .u-size4\/12\@xl {
+    width: 33.3333333333%;
+  }
+
+  .u-size2\/5\@xl {
+    width: 40%;
+  }
+
+  .u-size5\/12\@xl {
+    width: 41.6666666667%;
+  }
+
+  .u-size1\/2\@xl,
+  .u-size2\/4\@xl,
+  .u-size6\/12\@xl {
+    width: 50%;
+  }
+
+  .u-size3\/5\@xl {
+    width: 60%;
+  }
+
+  .u-size7\/12\@xl {
+    width: 58.3333333333%;
+  }
+
+  .u-size2\/3\@xl,
+  .u-size8\/12\@xl {
+    width: 66.6666666667%;
+  }
+
+  .u-size3\/4\@xl,
+  .u-size9\/12\@xl {
+    width: 75%;
+  }
+
+  .u-size4\/5\@xl {
+    width: 80%;
+  }
+
+  .u-size10\/12\@xl {
+    width: 83.3333333333%;
+  }
+
+  .u-size11\/12\@xl {
+    width: 91.6666666667%;
+  }
+}

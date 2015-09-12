@@ -17,3 +17,15 @@
 .u-textRight {
   text-align: right;
 }
+
+.u-200 {
+  font-weight: 200;
+}
+
+.u-400 {
+  font-weight: 400;
+}
+
+.u-600 {
+  font-weight: 600;
+}
