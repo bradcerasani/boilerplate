@@ -3,6 +3,7 @@ import sourcemaps from 'gulp-sourcemaps';
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import watchify from 'watchify';
+import babelify from 'babelify';
 import browserify from 'browserify';
 import browserSync from 'browser-sync';
 import size from 'gulp-size';
@@ -12,7 +13,9 @@ const reload = browserSync.reload;
 const bundler = watchify(browserify('./src/assets/scripts/main.js', watchify.args));
 
 function bundle() {
-  return bundler.bundle()
+  return bundler
+    .transform(babelify)
+    .bundle()
     .on('error', error)
     .pipe(source('./bundle.js'))
       .pipe(buffer())

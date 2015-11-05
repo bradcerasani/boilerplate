@@ -1,3 +1,3 @@
-let sayHello = require('./hello-world');
+const sayHello = require('./hello-world');
 
 sayHello();
