@@ -4,6 +4,6 @@
 
 .o-List {}
 
-.o-List--reset {
+.o-List--clean {
   list-style: none;
 }

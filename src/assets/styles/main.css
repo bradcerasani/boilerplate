@@ -38,7 +38,7 @@
 @import "objects/objects.layout";
 @import "objects/objects.links-ui";
 @import "objects/objects.lists-ui";
-@import "objects/objects.wrappers";
+@import "objects/objects.wrapper";
 
 /* Components
   - Designed pieces of UI. Explicitly named.

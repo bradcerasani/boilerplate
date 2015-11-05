@@ -4,10 +4,10 @@
 
 .o-Link {}
 
-.o-link--clean,
-.o-link--clean:hover,
-.o-link--clean:focus,
-.o-link--clean:active {
+.o-Link--clean,
+.o-Link--clean:hover,
+.o-Link--clean:focus,
+.o-Link--clean:active {
   text-decoration: none;
 }
 

@@ -1,0 +1,16 @@
+/**
+ * Objects > Wrapper
+ */
+
+.o-Wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: calc(var(--baseSpace) * 2);
+  padding-left: calc(var(--baseSpace) * 2);
+  max-width: var(--baseMaxWidth);
+  width: 100%;
+}
+
+.o-Wrapper--full {
+  max-width: 100%;
+}
