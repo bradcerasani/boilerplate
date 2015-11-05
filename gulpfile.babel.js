@@ -5,10 +5,10 @@
  */
 
 import gulp from 'gulp';
-import HubRegistry from 'gulp-hub';
-const hub = new HubRegistry(['gulp/tasks/*.js']);
 
-gulp.registry(hub);
+import requireDir from 'require-dir';
+
+requireDir('./gulp/tasks', { recurse: true });
 
 function watch() {
   gulp.watch(['src/**/*.handlebars', '!src/partials/**/*.handlebars'], gulp.task('changedTemplates'));
