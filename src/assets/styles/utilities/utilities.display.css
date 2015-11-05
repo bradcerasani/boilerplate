@@ -4,6 +4,7 @@
 
 .u-block        {display: block}
 .u-flex         {display: flex}
+.u-flexColumn   {display: flex; flex-direction: column}
 .u-inline       {display: inline}
 .u-inlineBlock  {display: inline-block}
 .u-inlineFlex   {display: inline-flex}
