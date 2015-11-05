@@ -53,6 +53,8 @@
 @import "utilities/utilities.colors";
 @import "utilities/utilities.display";
 @import "utilities/utilities.floats";
+@import "utilities/utilities.height";
+@import "utilities/utilities.images";
 @import "utilities/utilities.margin";
 @import "utilities/utilities.overflow";
 @import "utilities/utilities.padding";
