@@ -2,55 +2,111 @@
  * Utilities > Typography
  */
 
-.u-textCenter   {text-align: center}
-.u-textJustify  {text-align: justify}
-.u-textLeft     {text-align: left}
-.u-textRight    {text-align: right}
+.u-uppercase { text-transform: uppercase; }
+.u-lowercase { text-transform: lowercase; }
 
-.u-200 {font-weight: 200}
-.u-400 {font-weight: 400}
-.u-600 {font-weight: 600}
+.u-fontSmaller  { font-size: var(--fontSizeSmaller); }
+.u-fontSmall    { font-size: var(--fontSizeSmall); }
+.u-fontBase     { font-size: var(--fontSizeBase); }
+.u-fontLarge    { font-size: var(--fontSizeLarge); }
+.u-fontLarger   { font-size: var(--fontSizeLarger); }
+.u-fontLargest  { font-size: var(--fontSizeLargest); }
+
+.u-textCenter   { text-align: center; }
+.u-textJustify  { text-align: justify; }
+.u-textLeft     { text-align: left; }
+.u-textRight    { text-align: right; }
+
+.u-100 { font-weight: 100; }
+.u-200 { font-weight: 200; }
+.u-400 { font-weight: 400; }
+.u-500 { font-weight: 500; }
+.u-600 { font-weight: 600; }
+
+/* Small Breakpoint
+  =========================================================================== */
 
 @media (--small) {
-  .u-textCenter\@sm   {text-align: center}
-  .u-textJustify\@sm  {text-align: justify}
-  .u-textLeft\@sm     {text-align: left}
-  .u-textRight\@sm    {text-align: right}
+  .u-fontSmaller\@sm  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@sm    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@sm     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@sm    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@sm   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@sm  { font-size: var(--fontSizeLargest); }
 
-  .u-200\@sm {font-weight: 200}
-  .u-400\@sm {font-weight: 400}
-  .u-600\@sm {font-weight: 600}
+  .u-textCenter\@sm   { text-align: center; }
+  .u-textJustify\@sm  { text-align: justify; }
+  .u-textLeft\@sm     { text-align: left; }
+  .u-textRight\@sm    { text-align: right; }
+
+  .u-100\@sm { font-weight: 100; }
+  .u-200\@sm { font-weight: 200; }
+  .u-400\@sm { font-weight: 400; }
+  .u-600\@sm { font-weight: 600; }
 }
+
+/* Medium Breakpoint
+  =========================================================================== */
 
 @media (--medium) {
-  .u-textCenter\@md   {text-align: center}
-  .u-textJustify\@md  {text-align: justify}
-  .u-textLeft\@md     {text-align: left}
-  .u-textRight\@md    {text-align: right}
+  .u-fontSmaller\@md  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@md    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@md     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@md    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@md   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@md  { font-size: var(--fontSizeLargest); }
 
-  .u-200\@md {font-weight: 200}
-  .u-400\@md {font-weight: 400}
-  .u-600\@md {font-weight: 600}
+  .u-textCenter\@md   { text-align: center; }
+  .u-textJustify\@md  { text-align: justify; }
+  .u-textLeft\@md     { text-align: left; }
+  .u-textRight\@md    { text-align: right; }
+
+  .u-100\@md { font-weight: 100; }
+  .u-200\@md { font-weight: 200; }
+  .u-400\@md { font-weight: 400; }
+  .u-600\@md { font-weight: 600; }
 }
+
+/* Large Breakpoint
+  =========================================================================== */
 
 @media (--large) {
-  .u-textCenter\@lg   {text-align: center}
-  .u-textJustify\@lg  {text-align: justify}
-  .u-textLeft\@lg     {text-align: left}
-  .u-textRight\@lg    {text-align: right}
+  .u-fontSmaller\@lg  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@lg    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@lg     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@lg    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@lg   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@lg  { font-size: var(--fontSizeLargest); }
 
-  .u-200\@lg {font-weight: 200}
-  .u-400\@lg {font-weight: 400}
-  .u-600\@lg {font-weight: 600}
+  .u-textCenter\@lg   { text-align: center; }
+  .u-textJustify\@lg  { text-align: justify; }
+  .u-textLeft\@lg     { text-align: left; }
+  .u-textRight\@lg    { text-align: right; }
+
+  .u-100\@lg { font-weight: 100; }
+  .u-200\@lg { font-weight: 200; }
+  .u-400\@lg { font-weight: 400; }
+  .u-600\@lg { font-weight: 600; }
 }
 
-@media (--extraLarge) {
-  .u-textCenter\@xl   {text-align: center}
-  .u-textJustify\@xl  {text-align: justify}
-  .u-textLeft\@xl     {text-align: left}
-  .u-textRight\@xl    {text-align: right}
+/* extraLarge Breakpoint
+  =========================================================================== */
 
-  .u-200\@xl {font-weight: 200}
-  .u-400\@xl {font-weight: 400}
-  .u-600\@xl {font-weight: 600}
+@media (--extraLarge) {
+  .u-fontSmaller\@xl  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@xl    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@xl     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@xl    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@xl   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@xl  { font-size: var(--fontSizeLargest); }
+
+  .u-textCenter\@xl   { text-align: center; }
+  .u-textJustify\@xl  { text-align: justify; }
+  .u-textLeft\@xl     { text-align: left; }
+  .u-textRight\@xl    { text-align: right; }
+
+  .u-100\@xl { font-weight: 100; }
+  .u-200\@xl { font-weight: 200; }
+  .u-400\@xl { font-weight: 400; }
+  .u-600\@xl { font-weight: 600; }
 }
