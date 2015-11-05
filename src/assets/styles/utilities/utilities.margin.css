@@ -5,98 +5,45 @@
  /* Auto Margin
    =========================================================================== */
 
-.u-mAuto  {margin: auto}
-.u-mxAuto {margin-right: auto; margin-left: auto;}
-.u-myAuto {margin-top: auto; margin-bottom: auto;}
+.u-mAuto  { margin: auto }
 
-@media (--small) {
-  .u-mAuto\@sm  {margin: auto}
-  .u-mxAuto\@sm {margin-right: auto; margin-left: auto;}
-  .u-myAuto\@sm {margin-top: auto; margin-bottom: auto;}
+.u-mxAuto {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-@media (--medium) {
-  .u-mAuto\@md  {margin: auto}
-  .u-mxAuto\@md {margin-right: auto; margin-left: auto;}
-  .u-myAuto\@md {margin-top: auto; margin-bottom: auto;}
-}
-
-@media (--large) {
-  .u-mAuto\@lg  {margin: auto}
-  .u-mxAuto\@lg {margin-right: auto; margin-left: auto;}
-  .u-myAuto\@lg {margin-top: auto; margin-bottom: auto;}
-}
-
-@media (--extraLarge) {
-  .u-mAuto\@xl  {margin: auto}
-  .u-mxAuto\@xl {margin-right: auto; margin-left: auto;}
-  .u-myAuto\@xl {margin-top: auto; margin-bottom: auto;}
+.u-myAuto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* 0 Margin
   =========================================================================== */
 
-.u-m0  {margin: 0;}
-.u-mt0 {margin-top: 0;}
-.u-mr0 {margin-right: 0;}
-.u-mb0 {margin-bottom: 0;}
-.u-ml0 {margin-left: 0;}
+.u-m0  { margin: 0; }
+.u-mt0 { margin-top: 0; }
+.u-mr0 { margin-right: 0; }
+.u-mb0 { margin-bottom: 0; }
+.u-ml0 { margin-left: 0; }
 
-.u-mx0 {margin-right: 0; margin-left: 0;}
-.u-my0 {margin-top: 0; margin-bottom: 0;}
-
-@media (--small) {
-  .u-m0\@sm  {margin: 0;}
-  .u-mt0\@sm {margin-top: 0;}
-  .u-mr0\@sm {margin-right: 0;}
-  .u-mb0\@sm {margin-bottom: 0;}
-  .u-ml0\@sm {margin-left: 0;}
-
-  .u-mx0\@sm {margin-right: 0; margin-left: 0;}
-  .u-my0\@sm {margin-top: 0; margin-bottom: 0;}
+.u-mx0 {
+  margin-right: 0;
+  margin-left: 0;
 }
 
-@media (--medium) {
-  .u-m0\@md  {margin: 0;}
-  .u-mt0\@md {margin-top: 0;}
-  .u-mr0\@md {margin-right: 0;}
-  .u-mb0\@md {margin-bottom: 0;}
-  .u-ml0\@md {margin-left: 0;}
-
-  .u-mx0\@md {margin-right: 0; margin-left: 0;}
-  .u-my0\@md {margin-top: 0; margin-bottom: 0;}
-}
-
-@media (--large) {
-  .u-m0\@lg  {margin: 0;}
-  .u-mt0\@lg {margin-top: 0;}
-  .u-mr0\@lg {margin-right: 0;}
-  .u-mb0\@lg {margin-bottom: 0;}
-  .u-ml0\@lg {margin-left: 0;}
-
-  .u-mx0\@lg {margin-right: 0; margin-left: 0;}
-  .u-my0\@lg {margin-top: 0; margin-bottom: 0;}
-}
-
-@media (--extraLarge) {
-  .u-m0\@xl  {margin: 0;}
-  .u-mt0\@xl {margin-top: 0;}
-  .u-mr0\@xl {margin-right: 0;}
-  .u-mb0\@xl {margin-bottom: 0;}
-  .u-ml0\@xl {margin-left: 0;}
-
-  .u-mx0\@xl {margin-right: 0; margin-left: 0;}
-  .u-my0\@xl {margin-top: 0; margin-bottom: 0;}
+.u-my0 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* 1/4 baseSpace Margin
   =========================================================================== */
 
-.u-m1\/4  {margin: calc(var(--baseSpace) / 4);}
-.u-mt1\/4 {margin-top: calc(var(--baseSpace) / 4);}
-.u-mr1\/4 {margin-right: calc(var(--baseSpace) / 4);}
-.u-mb1\/4 {margin-bottom: calc(var(--baseSpace) / 4);}
-.u-ml1\/4 {margin-left: calc(var(--baseSpace) / 4);}
+.u-m1\/4  { margin: calc(var(--baseSpace) / 4); }
+.u-mt1\/4 { margin-top: calc(var(--baseSpace) / 4); }
+.u-mr1\/4 { margin-right: calc(var(--baseSpace) / 4); }
+.u-mb1\/4 { margin-bottom: calc(var(--baseSpace) / 4); }
+.u-ml1\/4 { margin-left: calc(var(--baseSpace) / 4); }
 
 .u-mx1\/4 {
   margin-right: calc(var(--baseSpace) / 4);
@@ -108,86 +55,14 @@
   margin-bottom: calc(var(--baseSpace) / 4);
 }
 
-@media (--small) {
-  .u-m1\/4\@sm  {margin: calc(var(--baseSpace) / 4);}
-  .u-mt1\/4\@sm {margin-top: calc(var(--baseSpace) / 4);}
-  .u-mr1\/4\@sm {margin-right: calc(var(--baseSpace) / 4);}
-  .u-mb1\/4\@sm {margin-bottom: calc(var(--baseSpace) / 4);}
-  .u-ml1\/4\@sm {margin-left: calc(var(--baseSpace) / 4);}
-
-  .u-mx1\/4\@sm {
-    margin-right: calc(var(--baseSpace) / 4);
-    margin-left: calc(var(--baseSpace) / 4);
-  }
-
-  .u-my1\/4\@sm {
-    margin-top: calc(var(--baseSpace) / 4);
-    margin-bottom: calc(var(--baseSpace) / 4);
-  }
-}
-
-@media (--medium) {
-  .u-m1\/4\@md  {margin: calc(var(--baseSpace) / 4);}
-  .u-mt1\/4\@md {margin-top: calc(var(--baseSpace) / 4);}
-  .u-mr1\/4\@md {margin-right: calc(var(--baseSpace) / 4);}
-  .u-mb1\/4\@md {margin-bottom: calc(var(--baseSpace) / 4);}
-  .u-ml1\/4\@md {margin-left: calc(var(--baseSpace) / 4);}
-
-  .u-mx1\/4\@md {
-    margin-right: calc(var(--baseSpace) / 4);
-    margin-left: calc(var(--baseSpace) / 4);
-  }
-
-  .u-my1\/4\@md {
-    margin-top: calc(var(--baseSpace) / 4);
-    margin-bottom: calc(var(--baseSpace) / 4);
-  }
-}
-
-@media (--large) {
-  .u-m1\/4\@lg  {margin: calc(var(--baseSpace) / 4);}
-  .u-mt1\/4\@lg {margin-top: calc(var(--baseSpace) / 4);}
-  .u-mr1\/4\@lg {margin-right: calc(var(--baseSpace) / 4);}
-  .u-mb1\/4\@lg {margin-bottom: calc(var(--baseSpace) / 4);}
-  .u-ml1\/4\@lg {margin-left: calc(var(--baseSpace) / 4);}
-
-  .u-mx1\/4\@lg {
-    margin-right: calc(var(--baseSpace) / 4);
-    margin-left: calc(var(--baseSpace) / 4);
-  }
-
-  .u-my1\/4\@lg {
-    margin-top: calc(var(--baseSpace) / 4);
-    margin-bottom: calc(var(--baseSpace) / 4);
-  }
-}
-
-@media (--extraLarge) {
-  .u-m1\/4\@xl  {margin: calc(var(--baseSpace) / 4);}
-  .u-mt1\/4\@xl {margin-top: calc(var(--baseSpace) / 4);}
-  .u-mr1\/4\@xl {margin-right: calc(var(--baseSpace) / 4);}
-  .u-mb1\/4\@xl {margin-bottom: calc(var(--baseSpace) / 4);}
-  .u-ml1\/4\@xl {margin-left: calc(var(--baseSpace) / 4);}
-
-  .u-mx1\/4\@xl {
-    margin-right: calc(var(--baseSpace) / 4);
-    margin-left: calc(var(--baseSpace) / 4);
-  }
-
-  .u-my1\/4\@xl {
-    margin-top: calc(var(--baseSpace) / 4);
-    margin-bottom: calc(var(--baseSpace) / 4);
-  }
-}
-
 /* 1/2 baseSpace Margin
   =========================================================================== */
 
-.u-m1\/2  {margin: calc(var(--baseSpace) / 2);}
-.u-mt1\/2 {margin-top: calc(var(--baseSpace) / 2);}
-.u-mr1\/2 {margin-right: calc(var(--baseSpace) / 2);}
-.u-mb1\/2 {margin-bottom: calc(var(--baseSpace) / 2);}
-.u-ml1\/2 {margin-left: calc(var(--baseSpace) / 2);}
+.u-m1\/2  { margin: calc(var(--baseSpace) / 2); }
+.u-mt1\/2 { margin-top: calc(var(--baseSpace) / 2); }
+.u-mr1\/2 { margin-right: calc(var(--baseSpace) / 2); }
+.u-mb1\/2 { margin-bottom: calc(var(--baseSpace) / 2); }
+.u-ml1\/2 { margin-left: calc(var(--baseSpace) / 2); }
 
 .u-mx1\/2 {
   margin-right: calc(var(--baseSpace) / 2);
@@ -199,86 +74,14 @@
   margin-bottom: calc(var(--baseSpace) / 2);
 }
 
-@media (--small) {
-  .u-m1\/2\@sm  {margin: calc(var(--baseSpace) / 2);}
-  .u-mt1\/2\@sm {margin-top: calc(var(--baseSpace) / 2);}
-  .u-mr1\/2\@sm {margin-right: calc(var(--baseSpace) / 2);}
-  .u-mb1\/2\@sm {margin-bottom: calc(var(--baseSpace) / 2);}
-  .u-ml1\/2\@sm {margin-left: calc(var(--baseSpace) / 2);}
-
-  .u-mx1\/2\@sm {
-    margin-right: calc(var(--baseSpace) / 2);
-    margin-left: calc(var(--baseSpace) / 2);
-  }
-
-  .u-my1\/2\@sm {
-    margin-top: calc(var(--baseSpace) / 2);
-    margin-bottom: calc(var(--baseSpace) / 2);
-  }
-}
-
-@media (--medium) {
-  .u-m1\/2\@md  {margin: calc(var(--baseSpace) / 2);}
-  .u-mt1\/2\@md {margin-top: calc(var(--baseSpace) / 2);}
-  .u-mr1\/2\@md {margin-right: calc(var(--baseSpace) / 2);}
-  .u-mb1\/2\@md {margin-bottom: calc(var(--baseSpace) / 2);}
-  .u-ml1\/2\@md {margin-left: calc(var(--baseSpace) / 2);}
-
-  .u-mx1\/2\@md {
-    margin-right: calc(var(--baseSpace) / 2);
-    margin-left: calc(var(--baseSpace) / 2);
-  }
-
-  .u-my1\/2\@md {
-    margin-top: calc(var(--baseSpace) / 2);
-    margin-bottom: calc(var(--baseSpace) / 2);
-  }
-}
-
-@media (--large) {
-  .u-m1\/2\@lg  {margin: calc(var(--baseSpace) / 2);}
-  .u-mt1\/2\@lg {margin-top: calc(var(--baseSpace) / 2);}
-  .u-mr1\/2\@lg {margin-right: calc(var(--baseSpace) / 2);}
-  .u-mb1\/2\@lg {margin-bottom: calc(var(--baseSpace) / 2);}
-  .u-ml1\/2\@lg {margin-left: calc(var(--baseSpace) / 2);}
-
-  .u-mx1\/2\@lg {
-    margin-right: calc(var(--baseSpace) / 2);
-    margin-left: calc(var(--baseSpace) / 2);
-  }
-
-  .u-my1\/2\@lg {
-    margin-top: calc(var(--baseSpace) / 2);
-    margin-bottom: calc(var(--baseSpace) / 2);
-  }
-}
-
-@media (--extraLarge) {
-  .u-m1\/2\@xl  {margin: calc(var(--baseSpace) / 2);}
-  .u-mt1\/2\@xl {margin-top: calc(var(--baseSpace) / 2);}
-  .u-mr1\/2\@xl {margin-right: calc(var(--baseSpace) / 2);}
-  .u-mb1\/2\@xl {margin-bottom: calc(var(--baseSpace) / 2);}
-  .u-ml1\/2\@xl {margin-left: calc(var(--baseSpace) / 2);}
-
-  .u-mx1\/2\@xl {
-    margin-right: calc(var(--baseSpace) / 2);
-    margin-left: calc(var(--baseSpace) / 2);
-  }
-
-  .u-my1\/2\@xl {
-    margin-top: calc(var(--baseSpace) / 2);
-    margin-bottom: calc(var(--baseSpace) / 2);
-  }
-}
-
 /* baseSpace Margin
   =========================================================================== */
 
-.u-m1  {margin: var(--baseSpace);}
-.u-mt1 {margin-top: var(--baseSpace);}
-.u-mr1 {margin-right: var(--baseSpace);}
-.u-mb1 {margin-bottom: var(--baseSpace);}
-.u-ml1 {margin-left: var(--baseSpace);}
+.u-m1  { margin: var(--baseSpace); }
+.u-mt1 { margin-top: var(--baseSpace); }
+.u-mr1 { margin-right: var(--baseSpace); }
+.u-mb1 { margin-bottom: var(--baseSpace); }
+.u-ml1 { margin-left: var(--baseSpace); }
 
 .u-mx1 {
   margin-right: var(--baseSpace);
@@ -290,86 +93,14 @@
   margin-bottom: var(--baseSpace);
 }
 
-@media (--small) {
-  .u-m1\@sm  {margin: var(--baseSpace);}
-  .u-mt1\@sm {margin-top: var(--baseSpace);}
-  .u-mr1\@sm {margin-right: var(--baseSpace);}
-  .u-mb1\@sm {margin-bottom: var(--baseSpace);}
-  .u-ml1\@sm {margin-left: var(--baseSpace);}
-
-  .u-mx1\@sm {
-    margin-right: var(--baseSpace);
-    margin-left: var(--baseSpace);
-  }
-
-  .u-my1\@sm {
-    margin-top: var(--baseSpace);
-    margin-bottom: var(--baseSpace);
-  }
-}
-
-@media (--medium) {
-  .u-m1\@md  {margin: var(--baseSpace);}
-  .u-mt1\@md {margin-top: var(--baseSpace);}
-  .u-mr1\@md {margin-right: var(--baseSpace);}
-  .u-mb1\@md {margin-bottom: var(--baseSpace);}
-  .u-ml1\@md {margin-left: var(--baseSpace);}
-
-  .u-mx1\@md {
-    margin-right: var(--baseSpace);
-    margin-left: var(--baseSpace);
-  }
-
-  .u-my1\@md {
-    margin-top: var(--baseSpace);
-    margin-bottom: var(--baseSpace);
-  }
-}
-
-@media (--large) {
-  .u-m1\@lg  {margin: var(--baseSpace);}
-  .u-mt1\@lg {margin-top: var(--baseSpace);}
-  .u-mr1\@lg {margin-right: var(--baseSpace);}
-  .u-mb1\@lg {margin-bottom: var(--baseSpace);}
-  .u-ml1\@lg {margin-left: var(--baseSpace);}
-
-  .u-mx1\@lg {
-    margin-right: var(--baseSpace);
-    margin-left: var(--baseSpace);
-  }
-
-  .u-my1\@lg {
-    margin-top: var(--baseSpace);
-    margin-bottom: var(--baseSpace);
-  }
-}
-
-@media (--extraLarge) {
-  .u-m1\@xl  {margin: var(--baseSpace);}
-  .u-mt1\@xl {margin-top: var(--baseSpace);}
-  .u-mr1\@xl {margin-right: var(--baseSpace);}
-  .u-mb1\@xl {margin-bottom: var(--baseSpace);}
-  .u-ml1\@xl {margin-left: var(--baseSpace);}
-
-  .u-mx1\@xl {
-    margin-right: var(--baseSpace);
-    margin-left: var(--baseSpace);
-  }
-
-  .u-my1\@xl {
-    margin-top: var(--baseSpace);
-    margin-bottom: var(--baseSpace);
-  }
-}
-
 /* 2x baseSpace Margin
   =========================================================================== */
 
-.u-m2  {margin: calc(var(--baseSpace) * 2);}
-.u-mt2 {margin-top: calc(var(--baseSpace) * 2);}
-.u-mr2 {margin-right: calc(var(--baseSpace) * 2);}
-.u-mb2 {margin-bottom: calc(var(--baseSpace) * 2);}
-.u-ml2 {margin-left: calc(var(--baseSpace) * 2);}
+.u-m2  { margin: calc(var(--baseSpace) * 2); }
+.u-mt2 { margin-top: calc(var(--baseSpace) * 2); }
+.u-mr2 { margin-right: calc(var(--baseSpace) * 2); }
+.u-mb2 { margin-bottom: calc(var(--baseSpace) * 2); }
+.u-ml2 { margin-left: calc(var(--baseSpace) * 2); }
 
 .u-mx2 {
   margin-right: calc(var(--baseSpace) * 2);
@@ -381,86 +112,14 @@
   margin-bottom: calc(var(--baseSpace) * 2);
 }
 
-@media (--small) {
-  .u-m2\@sm  {margin: calc(var(--baseSpace) * 2);}
-  .u-mt2\@sm {margin-top: calc(var(--baseSpace) * 2);}
-  .u-mr2\@sm {margin-right: calc(var(--baseSpace) * 2);}
-  .u-mb2\@sm {margin-bottom: calc(var(--baseSpace) * 2);}
-  .u-ml2\@sm {margin-left: calc(var(--baseSpace) * 2);}
-
-  .u-mx2\@sm {
-    margin-right: calc(var(--baseSpace) * 2);
-    margin-left: calc(var(--baseSpace) * 2);
-  }
-
-  .u-my2\@sm {
-    margin-top: calc(var(--baseSpace) * 2);
-    margin-bottom: calc(var(--baseSpace) * 2);
-  }
-}
-
-@media (--medium) {
-  .u-m2\@md  {margin: calc(var(--baseSpace) * 2);}
-  .u-mt2\@md {margin-top: calc(var(--baseSpace) * 2);}
-  .u-mr2\@md {margin-right: calc(var(--baseSpace) * 2);}
-  .u-mb2\@md {margin-bottom: calc(var(--baseSpace) * 2);}
-  .u-ml2\@md {margin-left: calc(var(--baseSpace) * 2);}
-
-  .u-mx2\@md {
-    margin-right: calc(var(--baseSpace) * 2);
-    margin-left: calc(var(--baseSpace) * 2);
-  }
-
-  .u-my2\@md {
-    margin-top: calc(var(--baseSpace) * 2);
-    margin-bottom: calc(var(--baseSpace) * 2);
-  }
-}
-
-@media (--large) {
-  .u-m2\@lg  {margin: calc(var(--baseSpace) * 2);}
-  .u-mt2\@lg {margin-top: calc(var(--baseSpace) * 2);}
-  .u-mr2\@lg {margin-right: calc(var(--baseSpace) * 2);}
-  .u-mb2\@lg {margin-bottom: calc(var(--baseSpace) * 2);}
-  .u-ml2\@lg {margin-left: calc(var(--baseSpace) * 2);}
-
-  .u-mx2\@lg {
-    margin-right: calc(var(--baseSpace) * 2);
-    margin-left: calc(var(--baseSpace) * 2);
-  }
-
-  .u-my2\@lg {
-    margin-top: calc(var(--baseSpace) * 2);
-    margin-bottom: calc(var(--baseSpace) * 2);
-  }
-}
-
-@media (--extraLarge) {
-  .u-m2\@xl  {margin: calc(var(--baseSpace) * 2);}
-  .u-mt2\@xl {margin-top: calc(var(--baseSpace) * 2);}
-  .u-mr2\@xl {margin-right: calc(var(--baseSpace) * 2);}
-  .u-mb2\@xl {margin-bottom: calc(var(--baseSpace) * 2);}
-  .u-ml2\@xl {margin-left: calc(var(--baseSpace) * 2);}
-
-  .u-mx2\@xl {
-    margin-right: calc(var(--baseSpace) * 2);
-    margin-left: calc(var(--baseSpace) * 2);
-  }
-
-  .u-my2\@xl {
-    margin-top: calc(var(--baseSpace) * 2);
-    margin-bottom: calc(var(--baseSpace) * 2);
-  }
-}
-
 /* 4x baseSpace Margin
   =========================================================================== */
 
-.u-m4  {margin: calc(var(--baseSpace) * 4);}
-.u-mt4 {margin-top: calc(var(--baseSpace) * 4);}
-.u-mr4 {margin-right: calc(var(--baseSpace) * 4);}
-.u-mb4 {margin-bottom: calc(var(--baseSpace) * 4);}
-.u-ml4 {margin-left: calc(var(--baseSpace) * 4);}
+.u-m4  { margin: calc(var(--baseSpace) * 4); }
+.u-mt4 { margin-top: calc(var(--baseSpace) * 4); }
+.u-mr4 { margin-right: calc(var(--baseSpace) * 4); }
+.u-mb4 { margin-bottom: calc(var(--baseSpace) * 4); }
+.u-ml4 { margin-left: calc(var(--baseSpace) * 4); }
 
 .u-mx4 {
   margin-right: calc(var(--baseSpace) * 4);
@@ -472,12 +131,107 @@
   margin-bottom: calc(var(--baseSpace) * 4);
 }
 
+/* Small Breakpoint
+  =========================================================================== */
+
 @media (--small) {
-  .u-m4\@sm  {margin: calc(var(--baseSpace) * 4);}
-  .u-mt4\@sm {margin-top: calc(var(--baseSpace) * 4);}
-  .u-mr4\@sm {margin-right: calc(var(--baseSpace) * 4);}
-  .u-mb4\@sm {margin-bottom: calc(var(--baseSpace) * 4);}
-  .u-ml4\@sm {margin-left: calc(var(--baseSpace) * 4);}
+
+  /* Auto Margin */
+
+  .u-mAuto\@sm  { margin: auto }
+  .u-mxAuto\@sm { margin-right: auto; margin-left: auto; }
+  .u-myAuto\@sm { margin-top: auto; margin-bottom: auto; }
+
+  /* 0 Margin */
+
+  .u-m0\@sm  { margin: 0; }
+  .u-mt0\@sm { margin-top: 0; }
+  .u-mr0\@sm { margin-right: 0; }
+  .u-mb0\@sm { margin-bottom: 0; }
+  .u-ml0\@sm { margin-left: 0; }
+
+  .u-mx0\@sm { margin-right: 0; margin-left: 0; }
+  .u-my0\@sm { margin-top: 0; margin-bottom: 0; }
+
+  /* 1/4 baseSpace Margin */
+
+  .u-m1\/4\@sm  { margin: calc(var(--baseSpace) / 4); }
+  .u-mt1\/4\@sm { margin-top: calc(var(--baseSpace) / 4); }
+  .u-mr1\/4\@sm { margin-right: calc(var(--baseSpace) / 4); }
+  .u-mb1\/4\@sm { margin-bottom: calc(var(--baseSpace) / 4); }
+  .u-ml1\/4\@sm { margin-left: calc(var(--baseSpace) / 4); }
+
+  .u-mx1\/4\@sm {
+    margin-right: calc(var(--baseSpace) / 4);
+    margin-left: calc(var(--baseSpace) / 4);
+  }
+
+  .u-my1\/4\@sm {
+    margin-top: calc(var(--baseSpace) / 4);
+    margin-bottom: calc(var(--baseSpace) / 4);
+  }
+
+  /* 1/2 baseSpace Margin */
+
+  .u-m1\/2\@sm  { margin: calc(var(--baseSpace) / 2); }
+  .u-mt1\/2\@sm { margin-top: calc(var(--baseSpace) / 2); }
+  .u-mr1\/2\@sm { margin-right: calc(var(--baseSpace) / 2); }
+  .u-mb1\/2\@sm { margin-bottom: calc(var(--baseSpace) / 2); }
+  .u-ml1\/2\@sm { margin-left: calc(var(--baseSpace) / 2); }
+
+  .u-mx1\/2\@sm {
+    margin-right: calc(var(--baseSpace) / 2);
+    margin-left: calc(var(--baseSpace) / 2);
+  }
+
+  .u-my1\/2\@sm {
+    margin-top: calc(var(--baseSpace) / 2);
+    margin-bottom: calc(var(--baseSpace) / 2);
+  }
+
+  /* baseSpace Margin */
+
+  .u-m1\@sm  { margin: var(--baseSpace); }
+  .u-mt1\@sm { margin-top: var(--baseSpace); }
+  .u-mr1\@sm { margin-right: var(--baseSpace); }
+  .u-mb1\@sm { margin-bottom: var(--baseSpace); }
+  .u-ml1\@sm { margin-left: var(--baseSpace); }
+
+  .u-mx1\@sm {
+    margin-right: var(--baseSpace);
+    margin-left: var(--baseSpace);
+  }
+
+  .u-my1\@sm {
+    margin-top: var(--baseSpace);
+    margin-bottom: var(--baseSpace);
+  }
+
+  /* 2x baseSpace Margin */
+
+  .u-m2\@sm  { margin: calc(var(--baseSpace) * 2); }
+  .u-mt2\@sm { margin-top: calc(var(--baseSpace) * 2); }
+  .u-mr2\@sm { margin-right: calc(var(--baseSpace) * 2); }
+  .u-mb2\@sm { margin-bottom: calc(var(--baseSpace) * 2); }
+  .u-ml2\@sm { margin-left: calc(var(--baseSpace) * 2); }
+
+  .u-mx2\@sm {
+    margin-right: calc(var(--baseSpace) * 2);
+    margin-left: calc(var(--baseSpace) * 2);
+  }
+
+  .u-my2\@sm {
+    margin-top: calc(var(--baseSpace) * 2);
+    margin-bottom: calc(var(--baseSpace) * 2);
+  }
+
+  /* 4x baseSpace Margin */
+
+  .u-m4\@sm  { margin: calc(var(--baseSpace) * 4); }
+  .u-mt4\@sm { margin-top: calc(var(--baseSpace) * 4); }
+  .u-mr4\@sm { margin-right: calc(var(--baseSpace) * 4); }
+  .u-mb4\@sm { margin-bottom: calc(var(--baseSpace) * 4); }
+  .u-ml4\@sm { margin-left: calc(var(--baseSpace) * 4); }
 
   .u-mx4\@sm {
     margin-right: calc(var(--baseSpace) * 4);
@@ -490,12 +244,107 @@
   }
 }
 
+/* Medium Breakpoint
+  =========================================================================== */
+
 @media (--medium) {
-  .u-m4\@md  {margin: calc(var(--baseSpace) * 4);}
-  .u-mt4\@md {margin-top: calc(var(--baseSpace) * 4);}
-  .u-mr4\@md {margin-right: calc(var(--baseSpace) * 4);}
-  .u-mb4\@md {margin-bottom: calc(var(--baseSpace) * 4);}
-  .u-ml4\@md {margin-left: calc(var(--baseSpace) * 4);}
+
+  /* Auto Margin */
+
+  .u-mAuto\@md  { margin: auto }
+  .u-mxAuto\@md { margin-right: auto; margin-left: auto; }
+  .u-myAuto\@md { margin-top: auto; margin-bottom: auto; }
+
+  /* 0 Margin */
+
+  .u-m0\@md  { margin: 0; }
+  .u-mt0\@md { margin-top: 0; }
+  .u-mr0\@md { margin-right: 0; }
+  .u-mb0\@md { margin-bottom: 0; }
+  .u-ml0\@md { margin-left: 0; }
+
+  .u-mx0\@md { margin-right: 0; margin-left: 0; }
+  .u-my0\@md { margin-top: 0; margin-bottom: 0; }
+
+  /* 1/4 baseSpace Margin */
+
+  .u-m1\/4\@md  { margin: calc(var(--baseSpace) / 4); }
+  .u-mt1\/4\@md { margin-top: calc(var(--baseSpace) / 4); }
+  .u-mr1\/4\@md { margin-right: calc(var(--baseSpace) / 4); }
+  .u-mb1\/4\@md { margin-bottom: calc(var(--baseSpace) / 4); }
+  .u-ml1\/4\@md { margin-left: calc(var(--baseSpace) / 4); }
+
+  .u-mx1\/4\@md {
+    margin-right: calc(var(--baseSpace) / 4);
+    margin-left: calc(var(--baseSpace) / 4);
+  }
+
+  .u-my1\/4\@md {
+    margin-top: calc(var(--baseSpace) / 4);
+    margin-bottom: calc(var(--baseSpace) / 4);
+  }
+
+  /* 1/2 baseSpace Margin */
+
+  .u-m1\/2\@md  { margin: calc(var(--baseSpace) / 2); }
+  .u-mt1\/2\@md { margin-top: calc(var(--baseSpace) / 2); }
+  .u-mr1\/2\@md { margin-right: calc(var(--baseSpace) / 2); }
+  .u-mb1\/2\@md { margin-bottom: calc(var(--baseSpace) / 2); }
+  .u-ml1\/2\@md { margin-left: calc(var(--baseSpace) / 2); }
+
+  .u-mx1\/2\@md {
+    margin-right: calc(var(--baseSpace) / 2);
+    margin-left: calc(var(--baseSpace) / 2);
+  }
+
+  .u-my1\/2\@md {
+    margin-top: calc(var(--baseSpace) / 2);
+    margin-bottom: calc(var(--baseSpace) / 2);
+  }
+
+  /* baseSpace Margin */
+
+  .u-m1\@md  { margin: var(--baseSpace); }
+  .u-mt1\@md { margin-top: var(--baseSpace); }
+  .u-mr1\@md { margin-right: var(--baseSpace); }
+  .u-mb1\@md { margin-bottom: var(--baseSpace); }
+  .u-ml1\@md { margin-left: var(--baseSpace); }
+
+  .u-mx1\@md {
+    margin-right: var(--baseSpace);
+    margin-left: var(--baseSpace);
+  }
+
+  .u-my1\@md {
+    margin-top: var(--baseSpace);
+    margin-bottom: var(--baseSpace);
+  }
+
+  /* 2x baseSpace Margin */
+
+  .u-m2\@md  { margin: calc(var(--baseSpace) * 2); }
+  .u-mt2\@md { margin-top: calc(var(--baseSpace) * 2); }
+  .u-mr2\@md { margin-right: calc(var(--baseSpace) * 2); }
+  .u-mb2\@md { margin-bottom: calc(var(--baseSpace) * 2); }
+  .u-ml2\@md { margin-left: calc(var(--baseSpace) * 2); }
+
+  .u-mx2\@md {
+    margin-right: calc(var(--baseSpace) * 2);
+    margin-left: calc(var(--baseSpace) * 2);
+  }
+
+  .u-my2\@md {
+    margin-top: calc(var(--baseSpace) * 2);
+    margin-bottom: calc(var(--baseSpace) * 2);
+  }
+
+  /* 4x baseSpace Margin */
+
+  .u-m4\@md  { margin: calc(var(--baseSpace) * 4); }
+  .u-mt4\@md { margin-top: calc(var(--baseSpace) * 4); }
+  .u-mr4\@md { margin-right: calc(var(--baseSpace) * 4); }
+  .u-mb4\@md { margin-bottom: calc(var(--baseSpace) * 4); }
+  .u-ml4\@md { margin-left: calc(var(--baseSpace) * 4); }
 
   .u-mx4\@md {
     margin-right: calc(var(--baseSpace) * 4);
@@ -508,12 +357,107 @@
   }
 }
 
+/* Large Breakpoint
+  =========================================================================== */
+
 @media (--large) {
-  .u-m4\@lg  {margin: calc(var(--baseSpace) * 4);}
-  .u-mt4\@lg {margin-top: calc(var(--baseSpace) * 4);}
-  .u-mr4\@lg {margin-right: calc(var(--baseSpace) * 4);}
-  .u-mb4\@lg {margin-bottom: calc(var(--baseSpace) * 4);}
-  .u-ml4\@lg {margin-left: calc(var(--baseSpace) * 4);}
+
+  /* Auto Margin */
+
+  .u-mAuto\@lg  { margin: auto; }
+  .u-mxAuto\@lg { margin-right: auto; margin-left: auto; }
+  .u-myAuto\@lg { margin-top: auto; margin-bottom: auto; }
+
+  /* 0 Margin */
+
+  .u-m0\@lg  { margin: 0; }
+  .u-mt0\@lg { margin-top: 0; }
+  .u-mr0\@lg { margin-right: 0; }
+  .u-mb0\@lg { margin-bottom: 0; }
+  .u-ml0\@lg { margin-left: 0; }
+
+  .u-mx0\@lg { margin-right: 0; margin-left: 0; }
+  .u-my0\@lg { margin-top: 0; margin-bottom: 0; }
+
+  /* 1/4 baseSpace Margin */
+
+  .u-m1\/4\@lg  { margin: calc(var(--baseSpace) / 4); }
+  .u-mt1\/4\@lg { margin-top: calc(var(--baseSpace) / 4); }
+  .u-mr1\/4\@lg { margin-right: calc(var(--baseSpace) / 4); }
+  .u-mb1\/4\@lg { margin-bottom: calc(var(--baseSpace) / 4); }
+  .u-ml1\/4\@lg { margin-left: calc(var(--baseSpace) / 4); }
+
+  .u-mx1\/4\@lg {
+    margin-right: calc(var(--baseSpace) / 4);
+    margin-left: calc(var(--baseSpace) / 4);
+  }
+
+  .u-my1\/4\@lg {
+    margin-top: calc(var(--baseSpace) / 4);
+    margin-bottom: calc(var(--baseSpace) / 4);
+  }
+
+  /* 1/2 baseSpace Margin */
+
+  .u-m1\/2\@lg  { margin: calc(var(--baseSpace) / 2); }
+  .u-mt1\/2\@lg { margin-top: calc(var(--baseSpace) / 2); }
+  .u-mr1\/2\@lg { margin-right: calc(var(--baseSpace) / 2); }
+  .u-mb1\/2\@lg { margin-bottom: calc(var(--baseSpace) / 2); }
+  .u-ml1\/2\@lg { margin-left: calc(var(--baseSpace) / 2); }
+
+  .u-mx1\/2\@lg {
+    margin-right: calc(var(--baseSpace) / 2);
+    margin-left: calc(var(--baseSpace) / 2);
+  }
+
+  .u-my1\/2\@lg {
+    margin-top: calc(var(--baseSpace) / 2);
+    margin-bottom: calc(var(--baseSpace) / 2);
+  }
+
+  /* baseSpace Margin */
+
+  .u-m1\@lg  { margin: var(--baseSpace); }
+  .u-mt1\@lg { margin-top: var(--baseSpace); }
+  .u-mr1\@lg { margin-right: var(--baseSpace); }
+  .u-mb1\@lg { margin-bottom: var(--baseSpace); }
+  .u-ml1\@lg { margin-left: var(--baseSpace); }
+
+  .u-mx1\@lg {
+    margin-right: var(--baseSpace);
+    margin-left: var(--baseSpace);
+  }
+
+  .u-my1\@lg {
+    margin-top: var(--baseSpace);
+    margin-bottom: var(--baseSpace);
+  }
+
+  /* 2x baseSpace Margin */
+
+  .u-m2\@lg  { margin: calc(var(--baseSpace) * 2); }
+  .u-mt2\@lg { margin-top: calc(var(--baseSpace) * 2); }
+  .u-mr2\@lg { margin-right: calc(var(--baseSpace) * 2); }
+  .u-mb2\@lg { margin-bottom: calc(var(--baseSpace) * 2); }
+  .u-ml2\@lg { margin-left: calc(var(--baseSpace) * 2); }
+
+  .u-mx2\@lg {
+    margin-right: calc(var(--baseSpace) * 2);
+    margin-left: calc(var(--baseSpace) * 2);
+  }
+
+  .u-my2\@lg {
+    margin-top: calc(var(--baseSpace) * 2);
+    margin-bottom: calc(var(--baseSpace) * 2);
+  }
+
+  /* 4x baseSpace Margin */
+
+  .u-m4\@lg  { margin: calc(var(--baseSpace) * 4); }
+  .u-mt4\@lg { margin-top: calc(var(--baseSpace) * 4); }
+  .u-mr4\@lg { margin-right: calc(var(--baseSpace) * 4); }
+  .u-mb4\@lg { margin-bottom: calc(var(--baseSpace) * 4); }
+  .u-ml4\@lg { margin-left: calc(var(--baseSpace) * 4); }
 
   .u-mx4\@lg {
     margin-right: calc(var(--baseSpace) * 4);
@@ -526,12 +470,107 @@
   }
 }
 
+/* extraLarge Breakpoint
+  =========================================================================== */
+
 @media (--extraLarge) {
-  .u-m4\@xl  {margin: calc(var(--baseSpace) * 4);}
-  .u-mt4\@xl {margin-top: calc(var(--baseSpace) * 4);}
-  .u-mr4\@xl {margin-right: calc(var(--baseSpace) * 4);}
-  .u-mb4\@xl {margin-bottom: calc(var(--baseSpace) * 4);}
-  .u-ml4\@xl {margin-left: calc(var(--baseSpace) * 4);}
+
+  /* Auto Margin */
+
+  .u-mAuto\@xl  { margin: auto }
+  .u-mxAuto\@xl { margin-right: auto; margin-left: auto; }
+  .u-myAuto\@xl { margin-top: auto; margin-bottom: auto; }
+
+  /* 0 Margin */
+
+  .u-m0\@xl  { margin: 0; }
+  .u-mt0\@xl { margin-top: 0; }
+  .u-mr0\@xl { margin-right: 0; }
+  .u-mb0\@xl { margin-bottom: 0; }
+  .u-ml0\@xl { margin-left: 0; }
+
+  .u-mx0\@xl { margin-right: 0; margin-left: 0; }
+  .u-my0\@xl { margin-top: 0; margin-bottom: 0; }
+
+  /* 1/4 baseSpace Margin */
+
+  .u-m1\/4\@xl  { margin: calc(var(--baseSpace) / 4); }
+  .u-mt1\/4\@xl { margin-top: calc(var(--baseSpace) / 4); }
+  .u-mr1\/4\@xl { margin-right: calc(var(--baseSpace) / 4); }
+  .u-mb1\/4\@xl { margin-bottom: calc(var(--baseSpace) / 4); }
+  .u-ml1\/4\@xl { margin-left: calc(var(--baseSpace) / 4); }
+
+  .u-mx1\/4\@xl {
+    margin-right: calc(var(--baseSpace) / 4);
+    margin-left: calc(var(--baseSpace) / 4);
+  }
+
+  .u-my1\/4\@xl {
+    margin-top: calc(var(--baseSpace) / 4);
+    margin-bottom: calc(var(--baseSpace) / 4);
+  }
+
+  /* 1/2 baseSpace Margin */
+
+  .u-m1\/2\@xl  { margin: calc(var(--baseSpace) / 2); }
+  .u-mt1\/2\@xl { margin-top: calc(var(--baseSpace) / 2); }
+  .u-mr1\/2\@xl { margin-right: calc(var(--baseSpace) / 2); }
+  .u-mb1\/2\@xl { margin-bottom: calc(var(--baseSpace) / 2); }
+  .u-ml1\/2\@xl { margin-left: calc(var(--baseSpace) / 2); }
+
+  .u-mx1\/2\@xl {
+    margin-right: calc(var(--baseSpace) / 2);
+    margin-left: calc(var(--baseSpace) / 2);
+  }
+
+  .u-my1\/2\@xl {
+    margin-top: calc(var(--baseSpace) / 2);
+    margin-bottom: calc(var(--baseSpace) / 2);
+  }
+
+  /* baseSpace Margin */
+
+  .u-m1\@xl  { margin: var(--baseSpace); }
+  .u-mt1\@xl { margin-top: var(--baseSpace); }
+  .u-mr1\@xl { margin-right: var(--baseSpace); }
+  .u-mb1\@xl { margin-bottom: var(--baseSpace); }
+  .u-ml1\@xl { margin-left: var(--baseSpace); }
+
+  .u-mx1\@xl {
+    margin-right: var(--baseSpace);
+    margin-left: var(--baseSpace);
+  }
+
+  .u-my1\@xl {
+    margin-top: var(--baseSpace);
+    margin-bottom: var(--baseSpace);
+  }
+
+  /* 2x baseSpace Margin */
+
+  .u-m2\@xl  { margin: calc(var(--baseSpace) * 2); }
+  .u-mt2\@xl { margin-top: calc(var(--baseSpace) * 2); }
+  .u-mr2\@xl { margin-right: calc(var(--baseSpace) * 2); }
+  .u-mb2\@xl { margin-bottom: calc(var(--baseSpace) * 2); }
+  .u-ml2\@xl { margin-left: calc(var(--baseSpace) * 2); }
+
+  .u-mx2\@xl {
+    margin-right: calc(var(--baseSpace) * 2);
+    margin-left: calc(var(--baseSpace) * 2);
+  }
+
+  .u-my2\@xl {
+    margin-top: calc(var(--baseSpace) * 2);
+    margin-bottom: calc(var(--baseSpace) * 2);
+  }
+
+  /* 4x baseSpace Margin */
+
+  .u-m4\@xl  { margin: calc(var(--baseSpace) * 4); }
+  .u-mt4\@xl { margin-top: calc(var(--baseSpace) * 4); }
+  .u-mr4\@xl { margin-right: calc(var(--baseSpace) * 4); }
+  .u-mb4\@xl { margin-bottom: calc(var(--baseSpace) * 4); }
+  .u-ml4\@xl { margin-left: calc(var(--baseSpace) * 4); }
 
   .u-mx4\@xl {
     margin-right: calc(var(--baseSpace) * 4);
