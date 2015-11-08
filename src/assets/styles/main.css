@@ -35,6 +35,7 @@
 
 @import "objects/objects.buttons";
 @import "objects/objects.icons";
+@import "objects/objects.intrinsic";
 @import "objects/objects.layout";
 @import "objects/objects.links-ui";
 @import "objects/objects.lists-ui";
