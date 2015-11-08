@@ -15,28 +15,6 @@
   width: 100%;
 }
 
-/* Layout with slim gutters
-  ============================================================================ */
-
-.o-Layout--slim {
-  margin-left: -.25rem;
-}
-
-.o-Layout--slim > .o-Layout-item {
-  padding-left: .25rem;
-}
-
-/* Layout with no gutters
- ============================================================================ */
-
-.o-Layout--flush {
-  margin-left: 0;
-}
-
-.o-Layout--flush > .o-Layout-item {
-  padding-left: 0;
-}
-
 /* Layout with nowrap
  ============================================================================ */
 
@@ -49,6 +27,40 @@
   padding-left: 0;
   width: auto;
   flex-grow: 1;
+}
+
+
+/* Layout with no gutters
+ ============================================================================ */
+
+.o-Layout--flush {
+  margin-left: 0;
+}
+
+.o-Layout--flush > .o-Layout-item {
+  padding-left: 0;
+}
+
+/* Layout with tight gutters
+  ============================================================================ */
+
+.o-Layout--tight {
+  margin-left: -.25rem;
+}
+
+.o-Layout--tight > .o-Layout-item {
+  padding-left: .25rem;
+}
+
+/* Layout with loose gutters
+  ============================================================================ */
+
+.o-Layout--loose {
+  margin-left: -2rem;
+}
+
+.o-Layout--loose > .o-Layout-item {
+  padding-left: 2rem;
 }
 
 /* Reverse layout
