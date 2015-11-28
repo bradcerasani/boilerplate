@@ -14,11 +14,11 @@
 
 /* Intrinsic Ratios */
 
-.o-Intrinsic--4by3:before { padding-top: 75%; }
-.o-Intrinsic--3by2:before { padding-top: 66.66666667%; }
-.o-Intrinsic--16by9:before { padding-top: 56.25%; }
-.o-Intrinsic--21by9:before { padding-top: 42.8571429%; }
-.o-Intrinsic--3by1:before { padding-top: 33.33333333%; }
+.o-Intrinsic--4by3:before   { padding-top: 75%; }
+.o-Intrinsic--3by2:before   { padding-top: 66.66666667%; }
+.o-Intrinsic--16by9:before  { padding-top: 56.25%; }
+.o-Intrinsic--21by9:before  { padding-top: 42.8571429%; }
+.o-Intrinsic--3by1:before   { padding-top: 33.33333333%; }
 
 .o-Intrinsic-content {
   position: absolute;
@@ -31,43 +31,43 @@
 /* Small Breakpoint
   =========================================================================== */
 
-@media (--sm) {
-  .o-Intrinsic--4by3\@sm:before { padding-top: 75%; }
-  .o-Intrinsic--3by2\@sm:before { padding-top: 66.66666667%; }
-  .o-Intrinsic--16by9\@sm:before { padding-top: 56.25%; }
-  .o-Intrinsic--21by9\@sm:before { padding-top: 42.8571429%; }
-  .o-Intrinsic--3by1\@sm:before { padding-top: 33.33333333%; }
+@media (--small) {
+  .o-Intrinsic--4by3\@sm:before   { padding-top: 75%; }
+  .o-Intrinsic--3by2\@sm:before   { padding-top: 66.66666667%; }
+  .o-Intrinsic--16by9\@sm:before  { padding-top: 56.25%; }
+  .o-Intrinsic--21by9\@sm:before  { padding-top: 42.8571429%; }
+  .o-Intrinsic--3by1\@sm:before   { padding-top: 33.33333333%; }
 }
 
 /* Medium Breakpoint
   =========================================================================== */
 
-@media (--md) {
-  .o-Intrinsic--4by3\@md:before { padding-top: 75%; }
-  .o-Intrinsic--3by2\@md:before { padding-top: 66.66666667%; }
-  .o-Intrinsic--16by9\@md:before { padding-top: 56.25%; }
-  .o-Intrinsic--21by9\@md:before { padding-top: 42.8571429%; }
-  .o-Intrinsic--3by1\@md:before { padding-top: 33.33333333%; }
+@media (--medium) {
+  .o-Intrinsic--4by3\@md:before   { padding-top: 75%; }
+  .o-Intrinsic--3by2\@md:before   { padding-top: 66.66666667%; }
+  .o-Intrinsic--16by9\@md:before  { padding-top: 56.25%; }
+  .o-Intrinsic--21by9\@md:before  { padding-top: 42.8571429%; }
+  .o-Intrinsic--3by1\@md:before   { padding-top: 33.33333333%; }
 }
 
 /* Large Breakpoint
   =========================================================================== */
 
-@media (--lg) {
-  .o-Intrinsic--4by3\@lg:before { padding-top: 75%; }
-  .o-Intrinsic--3by2\@lg:before { padding-top: 66.66666667%; }
-  .o-Intrinsic--16by9\@lg:before { padding-top: 56.25%; }
-  .o-Intrinsic--21by9\@lg:before { padding-top: 42.8571429%; }
-  .o-Intrinsic--3by1\@lg:before { padding-top: 33.33333333%; }
+@media (--large) {
+  .o-Intrinsic--4by3\@lg:before   { padding-top: 75%; }
+  .o-Intrinsic--3by2\@lg:before   { padding-top: 66.66666667%; }
+  .o-Intrinsic--16by9\@lg:before  { padding-top: 56.25%; }
+  .o-Intrinsic--21by9\@lg:before  { padding-top: 42.8571429%; }
+  .o-Intrinsic--3by1\@lg:before   { padding-top: 33.33333333%; }
 }
 
 /* XL Breakpoint
   =========================================================================== */
 
-@media (--xl) {
-  .o-Intrinsic--4by3\@xl:before { padding-top: 75%; }
-  .o-Intrinsic--3by2\@xl:before { padding-top: 66.66666667%; }
-  .o-Intrinsic--16by9\@xl:before { padding-top: 56.25%; }
-  .o-Intrinsic--21by9\@xl:before { padding-top: 42.8571429%; }
-  .o-Intrinsic--3by1\@xl:before { padding-top: 33.33333333%; }
+@media (--extraLarge) {
+  .o-Intrinsic--4by3\@xl:before   { padding-top: 75%; }
+  .o-Intrinsic--3by2\@xl:before   { padding-top: 66.66666667%; }
+  .o-Intrinsic--16by9\@xl:before  { padding-top: 56.25%; }
+  .o-Intrinsic--21by9\@xl:before  { padding-top: 42.8571429%; }
+  .o-Intrinsic--3by1\@xl:before   { padding-top: 33.33333333%; }
 }
